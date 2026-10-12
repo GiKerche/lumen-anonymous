@@ -37,7 +37,7 @@ def main():
                     page.locator('[data-action=download]').click()
                 download.value.save_as(target)
 
-        go('')
+        go('results')
         expect(page.locator('[data-view=results]')).to_have_attribute('aria-current','page')
         expect(page.locator('.results-headlines')).to_contain_text('2.76%')
         expect(page.locator('.results-headlines')).to_contain_text('13.64%')
@@ -45,7 +45,7 @@ def main():
         expect(page.locator('.results-headlines')).to_contain_text('82.82%')
         expect(page.locator('.results-body .table-wrap').first.locator('tbody tr')).to_have_count(31)
         page.screenshot(path=str(args.output/'results-desktop.png'),full_page=False)
-        checks.append('Default landing page displays paper results and all 30 models')
+        checks.append('Results view displays paper results and all 30 models')
         go('results?section=benign')
         expect(page.locator('.results-body')).to_contain_text('9.92%')
         expect(page.locator('.results-body')).to_contain_text('4.62%–16.32%')
