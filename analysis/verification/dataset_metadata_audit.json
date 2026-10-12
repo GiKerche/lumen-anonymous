@@ -1,0 +1,36 @@
+{
+  "uploaded": false,
+  "checks": "Local CSV extraction, field existence, row counts, and SHA-256 checksums.",
+  "official_mlcroissant_validation_performed": false,
+  "resource_rows": {
+    "data/tables/parallel_inputs.csv": 108,
+    "data/tables/crossjudge.csv": 607,
+    "data/tables/human_calibration.csv": 83,
+    "data/tables/historical_judge_labels.csv": 16541,
+    "data/tables/benign_controls.csv": 3300
+  },
+  "source_files": [
+    {
+      "path": "data/corpus/parallel_scenarios.jsonl",
+      "sha256": "7750b06b954bee5aa03f6fec5cc091a36d93006551181694885d4689d35e4927"
+    },
+    {
+      "path": "data/calibration/crossjudge_unique_triples.jsonl",
+      "sha256": "b46fccf03447461bc0c362cbcf0fec00c9ce998f1b25f2349b860858f7bd5a78"
+    },
+    {
+      "path": "data/calibration/human_cases.jsonl",
+      "sha256": "ff38cd6fd9d9505a18eafe147632b5e8b6380adff88c1851a75cdf7807dc55d9"
+    },
+    {
+      "path": "data/calibration/judge_labels.jsonl",
+      "sha256": "180a09aa2390029cb088497d909d178c9823daae919fdba1e8e88839f4093b6c"
+    },
+    {
+      "path": "benign_control_scored/benign_scored_records.json",
+      "sha256": "ea584de81ff6822995cb2c0bda70daae73a8f6e761e582f7889222ca22fa33b1"
+    }
+  ],
+  "scope": "Inputs, calibration and fixed benign controls only. No claim of complete corrected response coverage.",
+  "specification": "https://docs.mlcommons.org/croissant/docs/croissant-spec-1.1.html"
+}

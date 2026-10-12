@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#087f83">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta name="description" content="Explore Lumen-bench results: harmful actions, benign task completion for 30 models, paired language comparisons, and the responses and judgments behind them.">
+  <title>Lumen-bench · Anonymous Research Explorer</title>
+  <link rel="icon" href="assets/lumen.svg">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="data-loader.js"></script>
+  <script defer src="browser.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="header">
+    <div class="header-inner">
+      <a class="brand" href="#results" aria-label="Lumen-bench home"><img src="assets/lumen.svg" width="42" height="42" alt=""><span>Lumen<small>ANONYMOUS RESEARCH</small></span></a>
+      <span class="header-divider" aria-hidden="true"></span><a class="project-name" href="#results">Lumen-bench <span>EXPLORER</span></a>
+      <div class="header-links"><a href="assets/lumen-bench.pdf" target="_blank" rel="noopener">Read the paper <span aria-hidden="true">↗</span></a><a href="#about" data-repo-path="" target="_blank" rel="noopener" class="button button-small">Repository <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </header>
+  <main id="main" class="container" tabindex="-1">
+    <section class="intro" aria-labelledby="intro-title">
+      <div><p class="eyebrow"><span class="live-dot"></span> OPEN RESEARCH · MULTILINGUAL TOOL SAFETY</p><h1 id="intro-title">From words <em>to actions.</em></h1><p class="intro-description">Read the results. Compare harmful actions and legitimate task completion,<br class="desktop-break"> then follow each finding back to the requests and responses.</p></div>
+      <a class="corpus-link" href="#about" data-repo-path="data/" target="_blank" rel="noopener"><span class="corpus-icon" aria-hidden="true">↗</span><span>Every record, traceable.<small>Explore the anonymous dataset</small></span></a>
+    </section>
+    <section class="stats-grid" aria-label="Dataset coverage">
+      <div class="stat"><span class="stat-label">Recorded trials</span><strong id="stat-trials">194,400</strong><small>30 models · 2 system prompts</small></div>
+      <div class="stat"><span class="stat-label">Workplace scenarios</span><strong>108 <span>/ 11 categories</span></strong><small>6 social-pressure conditions</small></div>
+      <div class="stat"><span class="stat-label">Languages</span><strong class="language-stat">EN <span>·</span> PT <span>·</span> ES <span>·</span> ZH <span>·</span> HI</strong><small>Portuguese-authored, parallel corpus</small></div>
+      <div class="stat stat-accent"><span class="stat-label">Benign-control trials</span><strong>3,300</strong><small>Matched requests · mechanical scoring</small></div>
+    </section>
+    <nav class="tabs" aria-label="Explorer sections">
+      <a href="#results" data-view="results"><span aria-hidden="true">▥</span> Results</a>
+      <a href="#responses" data-view="responses"><span aria-hidden="true">◫</span> Responses</a>
+      <a href="#scenarios" data-view="scenarios"><span aria-hidden="true">▤</span> Scenarios & languages</a>
+      <a href="#judges" data-view="judges"><span aria-hidden="true">⇄</span> Judges & human review</a>
+      <a href="#benign" data-view="benign"><span aria-hidden="true">◎</span> Benign controls</a>
+      <a href="#about" data-view="about"><span aria-hidden="true">⊞</span> Methods & tools</a>
+    </nav>
+    <div id="app" aria-busy="true"><div class="loading"><span class="spinner"></span> Loading the research index…</div></div>
+    <noscript><p class="notice">This explorer needs JavaScript. All records are also available in the <a href="#about" data-repo-path="data/">downloadable dataset</a>.</p></noscript>
+    <footer><span><b>Lumen-bench</b> · Anonymous research artifact</span><p>Recorded, synthetic evaluations. No live model calls. No tracking.</p><div><a href="#about">Methods & scope</a><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">Data: CC BY 4.0 ↗</a></div></footer>
+  </main>
+  <dialog id="record-dialog" aria-labelledby="record-title"><div class="dialog-shell"><div class="dialog-toolbar"><span class="eyebrow" id="dialog-kind">RESPONSE RECORD</span><div><button type="button" class="button button-small" id="copy-link">Copy link</button><button type="button" class="close-button" id="close-dialog" aria-label="Close record">×</button></div></div><div id="record-content"></div></div></dialog>
+  <dialog id="export-dialog" aria-labelledby="export-title"><div class="dialog-shell"><h2 id="export-title">Export this selection</h2><p id="export-filename"></p><p>Copy the data below to save the selected records.</p><textarea id="export-content" readonly aria-label="Exported data" spellcheck="false"></textarea><div class="dialog-toolbar"><button class="button" id="export-copy">Copy data</button><button class="button" id="export-close">Close</button></div></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

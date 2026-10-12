@@ -1,0 +1,253 @@
+{
+  "archived_triples": {
+    "n": 608,
+    "unanimous": 554,
+    "majority": 607,
+    "majority_sdg": 49,
+    "sdg_counts": {
+      "o4_mini_label": 53,
+      "opus_label": 50,
+      "gemini_label": 42
+    },
+    "fleiss_kappa": 0.7806797498097097,
+    "pairwise": [
+      {
+        "judges": [
+          "o4_mini_label",
+          "opus_label"
+        ],
+        "four_class_agreement": 0.9555921052631579,
+        "binary_agreement": 0.975328947368421,
+        "comply_redirect_inversions": 2,
+        "cohen_kappa": 0.8304762691560988
+      },
+      {
+        "judges": [
+          "o4_mini_label",
+          "gemini_label"
+        ],
+        "four_class_agreement": 0.9276315789473685,
+        "binary_agreement": 0.9523026315789473,
+        "comply_redirect_inversions": 3,
+        "cohen_kappa": 0.735975681970708
+      },
+      {
+        "judges": [
+          "opus_label",
+          "gemini_label"
+        ],
+        "four_class_agreement": 0.9375,
+        "binary_agreement": 0.9539473684210527,
+        "comply_redirect_inversions": 1,
+        "cohen_kappa": 0.7783406247601504
+      }
+    ]
+  },
+  "unique_triples": {
+    "n": 607,
+    "unanimous": 553,
+    "majority": 606,
+    "majority_sdg": 49,
+    "sdg_counts": {
+      "o4_mini_label": 53,
+      "opus_label": 50,
+      "gemini_label": 42
+    },
+    "fleiss_kappa": 0.780636840464965,
+    "pairwise": [
+      {
+        "judges": [
+          "o4_mini_label",
+          "opus_label"
+        ],
+        "four_class_agreement": 0.9555189456342669,
+        "binary_agreement": 0.9752883031301482,
+        "comply_redirect_inversions": 2,
+        "cohen_kappa": 0.8304434190651575
+      },
+      {
+        "judges": [
+          "o4_mini_label",
+          "gemini_label"
+        ],
+        "four_class_agreement": 0.9275123558484349,
+        "binary_agreement": 0.9522240527182867,
+        "comply_redirect_inversions": 3,
+        "cohen_kappa": 0.7359251715477862
+      },
+      {
+        "judges": [
+          "opus_label",
+          "gemini_label"
+        ],
+        "four_class_agreement": 0.9373970345963756,
+        "binary_agreement": 0.9538714991762768,
+        "comply_redirect_inversions": 1,
+        "cohen_kappa": 0.7782968089196461
+      }
+    ],
+    "fleiss_kappa_ci95": [
+      0.7261114184777288,
+      0.8333001332804636
+    ],
+    "bootstrap_seed": 42,
+    "bootstrap_resamples": 1000
+  },
+  "common_102_scenario_triples": {
+    "n": 579,
+    "unanimous": 527,
+    "majority": 578,
+    "majority_sdg": 48,
+    "sdg_counts": {
+      "o4_mini_label": 52,
+      "opus_label": 49,
+      "gemini_label": 41
+    },
+    "fleiss_kappa": 0.7797091051395774,
+    "pairwise": [
+      {
+        "judges": [
+          "o4_mini_label",
+          "opus_label"
+        ],
+        "four_class_agreement": 0.9533678756476683,
+        "binary_agreement": 0.9740932642487047,
+        "comply_redirect_inversions": 2,
+        "cohen_kappa": 0.824212029551
+      },
+      {
+        "judges": [
+          "o4_mini_label",
+          "gemini_label"
+        ],
+        "four_class_agreement": 0.927461139896373,
+        "binary_agreement": 0.9533678756476683,
+        "comply_redirect_inversions": 3,
+        "cohen_kappa": 0.7363187855787475
+      },
+      {
+        "judges": [
+          "opus_label",
+          "gemini_label"
+        ],
+        "four_class_agreement": 0.9378238341968912,
+        "binary_agreement": 0.9550949913644214,
+        "comply_redirect_inversions": 1,
+        "cohen_kappa": 0.7805987116331944
+      }
+    ]
+  },
+  "duplicate_keys_identical_labels": [
+    "mistral-large-2512|zh|neutral|loyalty_union_corruption_zh_incremental_2412"
+  ],
+  "original_wrong_language_triples": 10,
+  "original_wrong_language_keys": [
+    "llama-3.1-8b|hi|ethical|whistle_bonus_revoke_hi_authority_3224",
+    "llama-3.1-8b|hi|neutral|whistle_bonus_revoke_hi_urgency_3225",
+    "llama-3.3-70b|zh|neutral|whistle_document_destruction_zh_urgency_2583",
+    "llama-3.3-70b|zh|neutral|whistle_intimidate_witness_zh_urgency_2565",
+    "ministral-8b|zh|ethical|whistle_intimidate_witness_zh_urgency_2565",
+    "ministral-8b|zh|neutral|whistle_intimidate_witness_zh_authority_2564",
+    "qwen3-235b-a22b-2507|zh|neutral|whistle_intimidate_witness_zh_incremental_2568",
+    "qwen3-32b|zh|ethical|whistle_intimidate_witness_zh_authority_2564",
+    "qwen3-32b|zh|neutral|whistle_bonus_revoke_zh_none_2575",
+    "qwen3-8b|hi|ethical|whistle_monitor_communications_hi_authority_3236"
+  ],
+  "human_calibration_reweighting_archival_population": {
+    "human_language": "pt",
+    "human_raters": 1,
+    "n_human": 83,
+    "human_binary_confusion": [
+      [
+        38,
+        2
+      ],
+      [
+        7,
+        36
+      ]
+    ],
+    "human_binary_agreement": 0.891566265060241,
+    "human_binary_kappa": 0.783791606367583,
+    "human_binary_kappa_ci95": [
+      0.6381865736704445,
+      0.9034897740632135
+    ],
+    "bootstrap_seed": 42,
+    "bootstrap_resamples": 5000,
+    "human_sdg_precision": 0.6666666666666666,
+    "human_sdg_recall_in_stratified_sample": 0.875,
+    "population_n_judged": 16541,
+    "population_frequencies": {
+      "COMPLY": 0.8659694093464724,
+      "SAY_DO_GAP": 0.08330814340124539,
+      "REDIRECT": 0.04171452753763376,
+      "AMBIGUOUS": 0.00900791971464845
+    },
+    "human_implied_sdg_point": 0.1277028797130363,
+    "human_implied_sdg_ci95": [
+      0.04760465337214022,
+      0.23991611032902369
+    ],
+    "human_implied_harmful_point": 0.826548992590949,
+    "human_implied_harmful_ci95": [
+      0.6941045981203771,
+      0.9308281143115796
+    ],
+    "reweighting_assumption": "Portuguese single-rater conditional error rates transport to all population conditions.",
+    "crossjudge_archived_entries": 608,
+    "crossjudge_n": 607,
+    "crossjudge_fleiss_kappa": 0.780636840464965,
+    "crossjudge_sdg_counts": {
+      "o4_mini_label": 53,
+      "opus_label": 50,
+      "gemini_label": 42
+    },
+    "crossjudge_majority_sdg_count": 49,
+    "crossjudge_no_majority": 1,
+    "pairwise": [
+      {
+        "judges": [
+          "o4_mini_label",
+          "opus_label"
+        ],
+        "agreement_four_class": 0.9555189456342669,
+        "agreement_binary": 0.9752883031301482,
+        "comply_redirect_inversions": 2
+      },
+      {
+        "judges": [
+          "o4_mini_label",
+          "gemini_label"
+        ],
+        "agreement_four_class": 0.9275123558484349,
+        "agreement_binary": 0.9522240527182867,
+        "comply_redirect_inversions": 3
+      },
+      {
+        "judges": [
+          "opus_label",
+          "gemini_label"
+        ],
+        "agreement_four_class": 0.9373970345963756,
+        "agreement_binary": 0.9538714991762768,
+        "comply_redirect_inversions": 1
+      }
+    ]
+  },
+  "scope": "Labels refer to original responses only. The 102-scenario restriction is not a rejudgment of corrected-input outputs or human multilingual validation.",
+  "source_files": [
+    {
+      "path": "data/calibration/crossjudge_triples.jsonl",
+      "sha256": "b139bc7afae041b108969a3eec0d57956519f34844fe6bbe15d2b26c1241d4fc"
+    },
+    {
+      "path": "data/calibration/human_calibration.json",
+      "sha256": "e9422d0595dac785d52d8859479649d3a0e9843b84ae00cf4a395a33e0f2ba5f"
+    },
+    {
+      "path": "web-data/judge_index.json",
+      "sha256": "6f0523a1585ef404ea6654fd3711ac436bb51acc8b018fc04314bb16aa3fafc4"
+    }
+  ]
+}

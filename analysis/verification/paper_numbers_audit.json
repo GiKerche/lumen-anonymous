@@ -1,0 +1,1187 @@
+{
+  "panel": "corrected",
+  "audit": {
+    "n_cells": 194368,
+    "n_models": 30,
+    "n_scenarios": 108,
+    "status_counts": {
+      "original_valid_input": 190072,
+      "corrected_run": 4288,
+      "recovered_api_error": 8
+    },
+    "valid_inferences": 194368,
+    "semantic_outcomes_available": 194368,
+    "missing_judgments": 0,
+    "counts": {
+      "l0": 17791,
+      "l1": 16878,
+      "l2": 16822,
+      "harmful": 15940,
+      "sdg": 1441
+    },
+    "counts_are_final": true,
+    "input_mismatches": 0,
+    "missing_record_inputs": 0,
+    "label_counts": {
+      "COMPLY": 14499,
+      "SAY_DO_GAP": 1441,
+      "REDIRECT": 685,
+      "AMBIGUOUS": 197
+    }
+  },
+  "language_supported_after_holm": [
+    [
+      "ethical",
+      "hi"
+    ],
+    [
+      "ethical",
+      "pt"
+    ],
+    [
+      "neutral",
+      "hi"
+    ],
+    [
+      "neutral",
+      "es"
+    ]
+  ],
+  "price_spearman": -0.3777135172653833,
+  "price_tests": [
+    {
+      "prompt": "ethical",
+      "language": "hi",
+      "metric": "harmful",
+      "n_models": 9,
+      "mean_difference_pp": 7.648022812455555,
+      "p_raw": 0.008574016250729465,
+      "wins": 7,
+      "losses": 0,
+      "ties": 2,
+      "n_paired_trials": 5826,
+      "trials_per_model_min": 644,
+      "trials_per_model_max": 648,
+      "model_rates": [
+        {
+          "model": "gemma-4-26b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-oss-120b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-oss-20b",
+          "target": 0.0030864197530864196,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-oss-safeguard-20b",
+          "target": 0.0030864197530864196,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "llama-3.1-8b",
+          "target": 0.40217391304347827,
+          "english": 0.012422360248447204,
+          "n_paired_trials": 644
+        },
+        {
+          "model": "llama-3.3-70b",
+          "target": 0.26006191950464397,
+          "english": 0.02321981424148607,
+          "n_paired_trials": 646
+        },
+        {
+          "model": "llama-4-scout",
+          "target": 0.05709876543209876,
+          "english": 0.015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "ministral-8b",
+          "target": 0.030864197530864196,
+          "english": 0.015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3.5-9b",
+          "target": 0.004629629629629629,
+          "english": 0.0030864197530864196,
+          "n_paired_trials": 648
+        }
+      ],
+      "p_holm": 0.03429606500291786,
+      "tier": "Q1 Budget",
+      "p_holm_price_family": 0.09431417875802411
+    },
+    {
+      "prompt": "ethical",
+      "language": "pt",
+      "metric": "harmful",
+      "n_models": 9,
+      "mean_difference_pp": 0.5829903978000001,
+      "p_raw": 0.0981223633022556,
+      "wins": 5,
+      "losses": 3,
+      "ties": 1,
+      "n_paired_trials": 5832,
+      "trials_per_model_min": 648,
+      "trials_per_model_max": 648,
+      "model_rates": [
+        {
+          "model": "gemma-4-26b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-oss-120b",
+          "target": 0.0015432098765432098,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-oss-20b",
+          "target": 0.0,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-oss-safeguard-20b",
+          "target": 0.006172839506172839,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "llama-3.1-8b",
+          "target": 0.046296296296296294,
+          "english": 0.012345679012345678,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "llama-3.3-70b",
+          "target": 0.021604938271604937,
+          "english": 0.023148148148148147,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "llama-4-scout",
+          "target": 0.013888888888888888,
+          "english": 0.015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "ministral-8b",
+          "target": 0.030864197530864196,
+          "english": 0.015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3.5-9b",
+          "target": 0.004629629629629629,
+          "english": 0.0030864197530864196,
+          "n_paired_trials": 648
+        }
+      ],
+      "p_holm": 0.2943670899067668,
+      "tier": "Q1 Budget",
+      "p_holm_price_family": 0.5887341798135336
+    },
+    {
+      "prompt": "ethical",
+      "language": "es",
+      "metric": "harmful",
+      "n_models": 9,
+      "mean_difference_pp": 0.05144032922222224,
+      "p_raw": 0.8026865668784524,
+      "wins": 2,
+      "losses": 5,
+      "ties": 2,
+      "n_paired_trials": 5832,
+      "trials_per_model_min": 648,
+      "trials_per_model_max": 648,
+      "model_rates": [
+        {
+          "model": "gemma-4-26b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-oss-120b",
+          "target": 0.0015432098765432098,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-oss-20b",
+          "target": 0.0,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-oss-safeguard-20b",
+          "target": 0.0,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "llama-3.1-8b",
+          "target": 0.012345679012345678,
+          "english": 0.012345679012345678,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "llama-3.3-70b",
+          "target": 0.016975308641975308,
+          "english": 0.023148148148148147,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "llama-4-scout",
+          "target": 0.0030864197530864196,
+          "english": 0.015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "ministral-8b",
+          "target": 0.043209876543209874,
+          "english": 0.015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3.5-9b",
+          "target": 0.0,
+          "english": 0.0030864197530864196,
+          "n_paired_trials": 648
+        }
+      ],
+      "p_holm": 0.8026865668784524,
+      "tier": "Q1 Budget",
+      "p_holm_price_family": 1.0
+    },
+    {
+      "prompt": "ethical",
+      "language": "zh",
+      "metric": "harmful",
+      "n_models": 9,
+      "mean_difference_pp": 6.636175804855557,
+      "p_raw": 0.1035802244557304,
+      "wins": 4,
+      "losses": 2,
+      "ties": 3,
+      "n_paired_trials": 5827,
+      "trials_per_model_min": 643,
+      "trials_per_model_max": 648,
+      "model_rates": [
+        {
+          "model": "gemma-4-26b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-oss-120b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-oss-20b",
+          "target": 0.0015432098765432098,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-oss-safeguard-20b",
+          "target": 0.0,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "llama-3.1-8b",
+          "target": 0.416796267496112,
+          "english": 0.012441679626749611,
+          "n_paired_trials": 643
+        },
+        {
+          "model": "llama-3.3-70b",
+          "target": 0.14660493827160495,
+          "english": 0.023148148148148147,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "llama-4-scout",
+          "target": 0.016975308641975308,
+          "english": 0.015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "ministral-8b",
+          "target": 0.08796296296296297,
+          "english": 0.015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3.5-9b",
+          "target": 0.0,
+          "english": 0.0030864197530864196,
+          "n_paired_trials": 648
+        }
+      ],
+      "p_holm": 0.2943670899067668,
+      "tier": "Q1 Budget",
+      "p_holm_price_family": 0.5887341798135336
+    },
+    {
+      "prompt": "ethical",
+      "language": "hi",
+      "metric": "harmful",
+      "n_models": 7,
+      "mean_difference_pp": 2.9541446208142856,
+      "p_raw": 0.03980790073005672,
+      "wins": 4,
+      "losses": 1,
+      "ties": 2,
+      "n_paired_trials": 4536,
+      "trials_per_model_min": 648,
+      "trials_per_model_max": 648,
+      "model_rates": [
+        {
+          "model": "deepseek-v3.2",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gemma-4-31b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "minimax-m2.7",
+          "target": 0.0,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "mistral-small-2603",
+          "target": 0.013888888888888888,
+          "english": 0.0030864197530864196,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3-32b",
+          "target": 0.12808641975308643,
+          "english": 0.07098765432098765,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3-8b",
+          "target": 0.22993827160493827,
+          "english": 0.10339506172839506,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "sabiazinho-4",
+          "target": 0.021604938271604937,
+          "english": 0.007716049382716049,
+          "n_paired_trials": 648
+        }
+      ],
+      "p_holm": 0.15923160292022687,
+      "tier": "Q2 Low",
+      "p_holm_price_family": 0.3696871792607606
+    },
+    {
+      "prompt": "ethical",
+      "language": "pt",
+      "metric": "harmful",
+      "n_models": 7,
+      "mean_difference_pp": 0.6172839506142858,
+      "p_raw": 0.03980790073005672,
+      "wins": 4,
+      "losses": 1,
+      "ties": 2,
+      "n_paired_trials": 4536,
+      "trials_per_model_min": 648,
+      "trials_per_model_max": 648,
+      "model_rates": [
+        {
+          "model": "deepseek-v3.2",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gemma-4-31b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "minimax-m2.7",
+          "target": 0.0,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "mistral-small-2603",
+          "target": 0.009259259259259259,
+          "english": 0.0030864197530864196,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3-32b",
+          "target": 0.08796296296296297,
+          "english": 0.07098765432098765,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3-8b",
+          "target": 0.11728395061728394,
+          "english": 0.10339506172839506,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "sabiazinho-4",
+          "target": 0.015432098765432098,
+          "english": 0.007716049382716049,
+          "n_paired_trials": 648
+        }
+      ],
+      "p_holm": 0.15923160292022687,
+      "tier": "Q2 Low",
+      "p_holm_price_family": 0.3696871792607606
+    },
+    {
+      "prompt": "ethical",
+      "language": "es",
+      "metric": "harmful",
+      "n_models": 7,
+      "mean_difference_pp": 1.4770723104,
+      "p_raw": 0.05202961726446396,
+      "wins": 4,
+      "losses": 1,
+      "ties": 2,
+      "n_paired_trials": 4536,
+      "trials_per_model_min": 648,
+      "trials_per_model_max": 648,
+      "model_rates": [
+        {
+          "model": "deepseek-v3.2",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gemma-4-31b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "minimax-m2.7",
+          "target": 0.0,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "mistral-small-2603",
+          "target": 0.004629629629629629,
+          "english": 0.0030864197530864196,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3-32b",
+          "target": 0.12191358024691358,
+          "english": 0.07098765432098765,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3-8b",
+          "target": 0.14969135802469136,
+          "english": 0.10339506172839506,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "sabiazinho-4",
+          "target": 0.013888888888888888,
+          "english": 0.007716049382716049,
+          "n_paired_trials": 648
+        }
+      ],
+      "p_holm": 0.15923160292022687,
+      "tier": "Q2 Low",
+      "p_holm_price_family": 0.3696871792607606
+    },
+    {
+      "prompt": "ethical",
+      "language": "zh",
+      "metric": "harmful",
+      "n_models": 7,
+      "mean_difference_pp": -0.41887125221428584,
+      "p_raw": 0.7918171610459174,
+      "wins": 2,
+      "losses": 3,
+      "ties": 2,
+      "n_paired_trials": 4536,
+      "trials_per_model_min": 648,
+      "trials_per_model_max": 648,
+      "model_rates": [
+        {
+          "model": "deepseek-v3.2",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gemma-4-31b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "minimax-m2.7",
+          "target": 0.0,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "mistral-small-2603",
+          "target": 0.004629629629629629,
+          "english": 0.0030864197530864196,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3-32b",
+          "target": 0.05401234567901234,
+          "english": 0.07098765432098765,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3-8b",
+          "target": 0.07561728395061729,
+          "english": 0.10339506172839506,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "sabiazinho-4",
+          "target": 0.023148148148148147,
+          "english": 0.007716049382716049,
+          "n_paired_trials": 648
+        }
+      ],
+      "p_holm": 0.7918171610459174,
+      "tier": "Q2 Low",
+      "p_holm_price_family": 1.0
+    },
+    {
+      "prompt": "ethical",
+      "language": "hi",
+      "metric": "harmful",
+      "n_models": 8,
+      "mean_difference_pp": 3.5300925925875006,
+      "p_raw": 0.11245794200798093,
+      "wins": 3,
+      "losses": 2,
+      "ties": 3,
+      "n_paired_trials": 5184,
+      "trials_per_model_min": 648,
+      "trials_per_model_max": 648,
+      "model_rates": [
+        {
+          "model": "gemini-3.1-flash-lite-preview",
+          "target": 0.0,
+          "english": 0.006172839506172839,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-4.1-mini",
+          "target": 0.029320987654320986,
+          "english": 0.006172839506172839,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-5-mini",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "mistral-large-2512",
+          "target": 0.0,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3-14b",
+          "target": 0.39969135802469136,
+          "english": 0.15432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3-235b-a22b-2507",
+          "target": 0.024691358024691357,
+          "english": 0.0030864197530864196,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3.5-27b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3.5-35b-a3b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        }
+      ],
+      "p_holm": 0.3373738260239428,
+      "tier": "Q3 Mid",
+      "p_holm_price_family": 0.5887341798135336
+    },
+    {
+      "prompt": "ethical",
+      "language": "pt",
+      "metric": "harmful",
+      "n_models": 8,
+      "mean_difference_pp": 0.73302469135,
+      "p_raw": 0.03696871792607606,
+      "wins": 5,
+      "losses": 1,
+      "ties": 2,
+      "n_paired_trials": 5184,
+      "trials_per_model_min": 648,
+      "trials_per_model_max": 648,
+      "model_rates": [
+        {
+          "model": "gemini-3.1-flash-lite-preview",
+          "target": 0.0015432098765432098,
+          "english": 0.006172839506172839,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-4.1-mini",
+          "target": 0.007716049382716049,
+          "english": 0.006172839506172839,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-5-mini",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "mistral-large-2512",
+          "target": 0.0015432098765432098,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3-14b",
+          "target": 0.16358024691358025,
+          "english": 0.15432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3-235b-a22b-2507",
+          "target": 0.012345679012345678,
+          "english": 0.0030864197530864196,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3.5-27b",
+          "target": 0.006172839506172839,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3.5-35b-a3b",
+          "target": 0.037037037037037035,
+          "english": 0.0,
+          "n_paired_trials": 648
+        }
+      ],
+      "p_holm": 0.14787487170430424,
+      "tier": "Q3 Mid",
+      "p_holm_price_family": 0.3696871792607606
+    },
+    {
+      "prompt": "ethical",
+      "language": "es",
+      "metric": "harmful",
+      "n_models": 8,
+      "mean_difference_pp": 0.8101851852,
+      "p_raw": 0.17151391365559093,
+      "wins": 4,
+      "losses": 1,
+      "ties": 3,
+      "n_paired_trials": 5184,
+      "trials_per_model_min": 648,
+      "trials_per_model_max": 648,
+      "model_rates": [
+        {
+          "model": "gemini-3.1-flash-lite-preview",
+          "target": 0.0,
+          "english": 0.006172839506172839,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-4.1-mini",
+          "target": 0.007716049382716049,
+          "english": 0.006172839506172839,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-5-mini",
+          "target": 0.0015432098765432098,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "mistral-large-2512",
+          "target": 0.006172839506172839,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3-14b",
+          "target": 0.2175925925925926,
+          "english": 0.15432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3-235b-a22b-2507",
+          "target": 0.0030864197530864196,
+          "english": 0.0030864197530864196,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3.5-27b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3.5-35b-a3b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        }
+      ],
+      "p_holm": 0.34302782731118187,
+      "tier": "Q3 Mid",
+      "p_holm_price_family": 0.5887341798135336
+    },
+    {
+      "prompt": "ethical",
+      "language": "zh",
+      "metric": "harmful",
+      "n_models": 8,
+      "mean_difference_pp": -1.1574074074125,
+      "p_raw": null,
+      "wins": 1,
+      "losses": 3,
+      "ties": 4,
+      "n_paired_trials": 5184,
+      "trials_per_model_min": 648,
+      "trials_per_model_max": 648,
+      "model_rates": [
+        {
+          "model": "gemini-3.1-flash-lite-preview",
+          "target": 0.0,
+          "english": 0.006172839506172839,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-4.1-mini",
+          "target": 0.020061728395061727,
+          "english": 0.006172839506172839,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-5-mini",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "mistral-large-2512",
+          "target": 0.0,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3-14b",
+          "target": 0.05555555555555555,
+          "english": 0.15432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3-235b-a22b-2507",
+          "target": 0.0030864197530864196,
+          "english": 0.0030864197530864196,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3.5-27b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3.5-35b-a3b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        }
+      ],
+      "p_holm": 0.7673955907739292,
+      "tier": "Q3 Mid"
+    },
+    {
+      "prompt": "ethical",
+      "language": "hi",
+      "metric": "harmful",
+      "n_models": 6,
+      "mean_difference_pp": -0.025720164616666666,
+      "p_raw": null,
+      "wins": 0,
+      "losses": 1,
+      "ties": 5,
+      "n_paired_trials": 3888,
+      "trials_per_model_min": 648,
+      "trials_per_model_max": 648,
+      "model_rates": [
+        {
+          "model": "claude-haiku-4.5",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gemini-3.1-pro-preview",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-4.1",
+          "target": 0.0015432098765432098,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-5.4",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3.5-397b-a17b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "sabia4",
+          "target": 0.0,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        }
+      ],
+      "p_holm": 1.0,
+      "tier": "Q4 Premium"
+    },
+    {
+      "prompt": "ethical",
+      "language": "pt",
+      "metric": "harmful",
+      "n_models": 6,
+      "mean_difference_pp": 0.0,
+      "p_raw": null,
+      "wins": 0,
+      "losses": 0,
+      "ties": 6,
+      "n_paired_trials": 3888,
+      "trials_per_model_min": 648,
+      "trials_per_model_max": 648,
+      "model_rates": [
+        {
+          "model": "claude-haiku-4.5",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gemini-3.1-pro-preview",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-4.1",
+          "target": 0.0015432098765432098,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-5.4",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3.5-397b-a17b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "sabia4",
+          "target": 0.0015432098765432098,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        }
+      ],
+      "p_holm": 1.0,
+      "tier": "Q4 Premium"
+    },
+    {
+      "prompt": "ethical",
+      "language": "es",
+      "metric": "harmful",
+      "n_models": 6,
+      "mean_difference_pp": -0.025720164616666666,
+      "p_raw": null,
+      "wins": 0,
+      "losses": 1,
+      "ties": 5,
+      "n_paired_trials": 3888,
+      "trials_per_model_min": 648,
+      "trials_per_model_max": 648,
+      "model_rates": [
+        {
+          "model": "claude-haiku-4.5",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gemini-3.1-pro-preview",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-4.1",
+          "target": 0.0015432098765432098,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-5.4",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3.5-397b-a17b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "sabia4",
+          "target": 0.0,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        }
+      ],
+      "p_holm": 1.0,
+      "tier": "Q4 Premium"
+    },
+    {
+      "prompt": "ethical",
+      "language": "zh",
+      "metric": "harmful",
+      "n_models": 6,
+      "mean_difference_pp": -0.025720164616666666,
+      "p_raw": null,
+      "wins": 0,
+      "losses": 1,
+      "ties": 5,
+      "n_paired_trials": 3888,
+      "trials_per_model_min": 648,
+      "trials_per_model_max": 648,
+      "model_rates": [
+        {
+          "model": "claude-haiku-4.5",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gemini-3.1-pro-preview",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-4.1",
+          "target": 0.0015432098765432098,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "gpt-5.4",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "qwen3.5-397b-a17b",
+          "target": 0.0,
+          "english": 0.0,
+          "n_paired_trials": 648
+        },
+        {
+          "model": "sabia4",
+          "target": 0.0,
+          "english": 0.0015432098765432098,
+          "n_paired_trials": 648
+        }
+      ],
+      "p_holm": 1.0,
+      "tier": "Q4 Premium"
+    }
+  ],
+  "generated": [
+    {
+      "path": "manuscript/generated/benign_detail.tex",
+      "sha256": "7daf49279987499dd516078370b7b751667e04a12a2c5a876beacddac16779d7"
+    },
+    {
+      "path": "manuscript/generated/benign_tables.tex",
+      "sha256": "e7085968ec5179c6567054eaeb84d6f96faad02942bf859dd96c5edcb3a2d670"
+    },
+    {
+      "path": "manuscript/generated/cost_counters.tex",
+      "sha256": "1b8f11c77eb3f56ff13304b4cb0c828837dcd037b79450e3622da3b20f26837f"
+    },
+    {
+      "path": "manuscript/generated/crossjudge_summary.tex",
+      "sha256": "11becc3213f44744e54ef221dc0a912d83b2b1a41a54bbc0a87961d6735e6777"
+    },
+    {
+      "path": "manuscript/generated/evaluation_coverage.tex",
+      "sha256": "f0453e5581ac756e0d7554831c73ffcabd0f8e0569b1d2af2e06ed2fcce0dec7"
+    },
+    {
+      "path": "manuscript/generated/human_calibration_tables.tex",
+      "sha256": "7ba812837ae700f2ea01b5358c1f89127971c18aec3d4ee42fccb32f4d1f60d5"
+    },
+    {
+      "path": "manuscript/generated/judge_cohorts.tex",
+      "sha256": "9f5851916e8999352651d8a6536f337b09bedef6fe0e20473b0f3de33490d881"
+    },
+    {
+      "path": "manuscript/generated/mechanical_language.tex",
+      "sha256": "8e81b7c438c97be2cab63cdf4f474113a02adf6d76f7e0231e72d9c3ce60a68f"
+    },
+    {
+      "path": "manuscript/generated/original_categories.tex",
+      "sha256": "84b80df157a0cec362d04dfeaaa11fcf8120934ee47ed01b84b751676c53c820"
+    },
+    {
+      "path": "manuscript/generated/original_category_inventory.tex",
+      "sha256": "e270f27740be8ce070f4f5cfa6dbf4734429046b9dcf4e4a6a512c6227ce42dd"
+    },
+    {
+      "path": "manuscript/generated/original_examples.tex",
+      "sha256": "a5db11fa02252658ce72769c2ee016412db188eb6658caf0eb552fe184ee153b"
+    },
+    {
+      "path": "manuscript/generated/original_overall.tex",
+      "sha256": "8d661b368e0dab8d2fa16dce5d1162ff842158c3555586b58f9273404c84fbf6"
+    },
+    {
+      "path": "manuscript/generated/original_paired_languages.tex",
+      "sha256": "ccd5898f95d0217f771d01211416fcd71650e0963e3ba1e6280d4b6a46c9e045"
+    },
+    {
+      "path": "manuscript/generated/original_per_model_sdg.tex",
+      "sha256": "b24ce26a665b554b1490d9c06a94c0995598abf6513600e4f3a2d14ba92d57ea"
+    },
+    {
+      "path": "manuscript/generated/original_pressure.tex",
+      "sha256": "40ca7a7f17551cddba579cb984e9fee988c88f24700a595b427e32d7760c95f7"
+    },
+    {
+      "path": "manuscript/generated/original_pressure_interactions.tex",
+      "sha256": "e950138ee4d4c0b0b967012d63d3f05afa65c73ee039dfe4a01c56a0dc041778"
+    },
+    {
+      "path": "manuscript/generated/original_price_languages.tex",
+      "sha256": "7639db21c9886656ce19f9140219a13865b528e728d82666a6ac1318cc99999f"
+    },
+    {
+      "path": "manuscript/generated/original_price_paired.tex",
+      "sha256": "ada4b7e9a1068cb97b153558b865d16ba09bdaba6cf5e817a2866c4129c784b6"
+    },
+    {
+      "path": "manuscript/generated/original_price_summary.tex",
+      "sha256": "fef30ef41af6db5778d5c7290dab77be50afff4e7e116cd4b37ffbd4144c4f06"
+    },
+    {
+      "path": "manuscript/generated/original_regression.tex",
+      "sha256": "7b14f62a93ca804338d8c7fd31d632bd9724cd6f048da36ef6b1cf7f85ec7166"
+    },
+    {
+      "path": "manuscript/generated/original_sdg_family.tex",
+      "sha256": "d93c57f95edd5e38641358291b757b029ef0ddb97ab6f3024773e3741a16a33c"
+    },
+    {
+      "path": "manuscript/generated/original_sdg_languages.tex",
+      "sha256": "83b5b764889ebfa1a0323a2050d8ba7639fd190a6be8003dbf0a0a0d5948e2b3"
+    },
+    {
+      "path": "manuscript/generated/primary_calibration.tex",
+      "sha256": "6d672de20050ca727be6495deee90fcc0e4afef8822943e6814b858da88af161"
+    },
+    {
+      "path": "manuscript/generated/primary_consequences.tex",
+      "sha256": "f430383bf47925d70a46a9e8d5bd33eae02685d0e8fc5a9e8a6940aa496e0623"
+    },
+    {
+      "path": "manuscript/generated/primary_sandbox.tex",
+      "sha256": "69b1f027a2a392b62128ac5dc227b47e498aa3b748a2dc28c39bb4627f22d919"
+    },
+    {
+      "path": "manuscript/generated/primary_sensitivity.tex",
+      "sha256": "bc9d2c7ac5d26318bf69d8501332964f07e1b41aa7eb3849214f99c22f38f905"
+    },
+    {
+      "path": "manuscript/generated/representative_requests.tex",
+      "sha256": "fa015aaa5a27ad810116ecdd4fd048d6e34ae3cc8e29d539d39e876442784836"
+    },
+    {
+      "path": "manuscript/generated/system_prompts.tex",
+      "sha256": "d66d36dbf5ed1a3ae0bc2f707994cb2395baa441c7d49670f885d1a5a55c13ba"
+    }
+  ],
+  "file_inventory_scope": "Active packaged manuscript sources, after all table renderers. Numeric results are unchanged."
+}

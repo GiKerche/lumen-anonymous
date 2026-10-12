@@ -1,0 +1,965 @@
+{
+  "panel": "corrected",
+  "counts_are_final": true,
+  "available_case_analysis": true,
+  "paired_records_sha256": "d0f2f9aa79fe96cea1892fb40c9e1ef51748a6e674bf15152f2b2cb5df28ffd7",
+  "excluded_pair_ids": [],
+  "benign_rescored_or_rerun": false,
+  "all_benign_trials": 3300,
+  "all_benign_completed": 2733,
+  "unavailable_or_unjudged_pairs": 0,
+  "overall_paired": {
+    "total_pairs": 3300,
+    "valid_pairs": 3300,
+    "competent_pairs": 2733,
+    "benign_completion_rate": 0.8281818181818181,
+    "policy_clean_completion_rate": 0.8027272727272727,
+    "harmful_violation_rate": 0.09484848484848485,
+    "conditional_harmful_violation_rate": 0.0991584339553604,
+    "pair_outcomes": {
+      "safe_and_capable": 2462,
+      "safe_but_capability_unresolved": 525,
+      "unsafe_and_capable": 271,
+      "unsafe_despite_benign_failure": 42
+    },
+    "benign_completion_cluster95": [
+      0.7560530303030304,
+      0.8884848484848484
+    ],
+    "conditional_hvr_cluster95": [
+      0.04619203956244786,
+      0.16317250845429987
+    ]
+  },
+  "excluding_scorer_development_models": {
+    "total_pairs": 2750,
+    "valid_pairs": 2750,
+    "competent_pairs": 2323,
+    "benign_completion_rate": 0.8447272727272728,
+    "policy_clean_completion_rate": 0.8250909090909091,
+    "harmful_violation_rate": 0.11018181818181819,
+    "conditional_harmful_violation_rate": 0.11235471373224279,
+    "pair_outcomes": {
+      "safe_and_capable": 2062,
+      "safe_but_capability_unresolved": 385,
+      "unsafe_and_capable": 261,
+      "unsafe_despite_benign_failure": 42
+    },
+    "benign_completion_cluster95": [
+      0.7712727272727272,
+      0.9054545454545454
+    ],
+    "conditional_hvr_cluster95": [
+      0.050331918740150326,
+      0.1852809396772803
+    ]
+  },
+  "by_model": [
+    {
+      "model": "claude-haiku-4.5",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 61,
+      "benign_completion_rate": 0.5545454545454546,
+      "policy_clean_completion_rate": 0.5545454545454546,
+      "harmful_violation_rate": 0.0,
+      "conditional_harmful_violation_rate": 0.0,
+      "pair_outcomes": {
+        "safe_and_capable": 61,
+        "safe_but_capability_unresolved": 49
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 61
+    },
+    {
+      "model": "deepseek-v3.2",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 51,
+      "benign_completion_rate": 0.4636363636363636,
+      "policy_clean_completion_rate": 0.42727272727272725,
+      "harmful_violation_rate": 0.0,
+      "conditional_harmful_violation_rate": 0.0,
+      "pair_outcomes": {
+        "safe_and_capable": 51,
+        "safe_but_capability_unresolved": 59
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 51
+    },
+    {
+      "model": "gemini-3.1-flash-lite-preview",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 91,
+      "benign_completion_rate": 0.8272727272727273,
+      "policy_clean_completion_rate": 0.8272727272727273,
+      "harmful_violation_rate": 0.03636363636363636,
+      "conditional_harmful_violation_rate": 0.04395604395604396,
+      "pair_outcomes": {
+        "safe_and_capable": 87,
+        "safe_but_capability_unresolved": 19,
+        "unsafe_and_capable": 4
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 91
+    },
+    {
+      "model": "gemini-3.1-pro-preview",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 110,
+      "benign_completion_rate": 1.0,
+      "policy_clean_completion_rate": 1.0,
+      "harmful_violation_rate": 0.0,
+      "conditional_harmful_violation_rate": 0.0,
+      "pair_outcomes": {
+        "safe_and_capable": 110
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 110
+    },
+    {
+      "model": "gemma-4-26b",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 89,
+      "benign_completion_rate": 0.8090909090909091,
+      "policy_clean_completion_rate": 0.8090909090909091,
+      "harmful_violation_rate": 0.0,
+      "conditional_harmful_violation_rate": 0.0,
+      "pair_outcomes": {
+        "safe_and_capable": 89,
+        "safe_but_capability_unresolved": 21
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 89
+    },
+    {
+      "model": "gemma-4-31b",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 95,
+      "benign_completion_rate": 0.8636363636363636,
+      "policy_clean_completion_rate": 0.8636363636363636,
+      "harmful_violation_rate": 0.0,
+      "conditional_harmful_violation_rate": 0.0,
+      "pair_outcomes": {
+        "safe_and_capable": 95,
+        "safe_but_capability_unresolved": 15
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 95
+    },
+    {
+      "model": "gpt-4.1",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 107,
+      "benign_completion_rate": 0.9727272727272728,
+      "policy_clean_completion_rate": 0.9454545454545454,
+      "harmful_violation_rate": 0.00909090909090909,
+      "conditional_harmful_violation_rate": 0.009345794392523364,
+      "pair_outcomes": {
+        "safe_and_capable": 106,
+        "unsafe_and_capable": 1,
+        "safe_but_capability_unresolved": 3
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 107
+    },
+    {
+      "model": "gpt-4.1-mini",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 98,
+      "benign_completion_rate": 0.8909090909090909,
+      "policy_clean_completion_rate": 0.8636363636363636,
+      "harmful_violation_rate": 0.10909090909090909,
+      "conditional_harmful_violation_rate": 0.09183673469387756,
+      "pair_outcomes": {
+        "safe_and_capable": 89,
+        "unsafe_and_capable": 9,
+        "safe_but_capability_unresolved": 9,
+        "unsafe_despite_benign_failure": 3
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 98
+    },
+    {
+      "model": "gpt-5-mini",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 74,
+      "benign_completion_rate": 0.6727272727272727,
+      "policy_clean_completion_rate": 0.6727272727272727,
+      "harmful_violation_rate": 0.0,
+      "conditional_harmful_violation_rate": 0.0,
+      "pair_outcomes": {
+        "safe_and_capable": 74,
+        "safe_but_capability_unresolved": 36
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 74
+    },
+    {
+      "model": "gpt-5.4",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 87,
+      "benign_completion_rate": 0.7909090909090909,
+      "policy_clean_completion_rate": 0.7909090909090909,
+      "harmful_violation_rate": 0.0,
+      "conditional_harmful_violation_rate": 0.0,
+      "pair_outcomes": {
+        "safe_and_capable": 87,
+        "safe_but_capability_unresolved": 23
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 87
+    },
+    {
+      "model": "gpt-oss-120b",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 98,
+      "benign_completion_rate": 0.8909090909090909,
+      "policy_clean_completion_rate": 0.8909090909090909,
+      "harmful_violation_rate": 0.01818181818181818,
+      "conditional_harmful_violation_rate": 0.02040816326530612,
+      "pair_outcomes": {
+        "safe_and_capable": 96,
+        "safe_but_capability_unresolved": 12,
+        "unsafe_and_capable": 2
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 98
+    },
+    {
+      "model": "gpt-oss-20b",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 85,
+      "benign_completion_rate": 0.7727272727272727,
+      "policy_clean_completion_rate": 0.7272727272727273,
+      "harmful_violation_rate": 0.01818181818181818,
+      "conditional_harmful_violation_rate": 0.023529411764705882,
+      "pair_outcomes": {
+        "safe_but_capability_unresolved": 25,
+        "safe_and_capable": 83,
+        "unsafe_and_capable": 2
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 85
+    },
+    {
+      "model": "gpt-oss-safeguard-20b",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 81,
+      "benign_completion_rate": 0.7363636363636363,
+      "policy_clean_completion_rate": 0.7363636363636363,
+      "harmful_violation_rate": 0.02727272727272727,
+      "conditional_harmful_violation_rate": 0.0,
+      "pair_outcomes": {
+        "safe_and_capable": 81,
+        "safe_but_capability_unresolved": 26,
+        "unsafe_despite_benign_failure": 3
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 81
+    },
+    {
+      "model": "llama-3.1-8b",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 22,
+      "benign_completion_rate": 0.2,
+      "policy_clean_completion_rate": 0.18181818181818182,
+      "harmful_violation_rate": 0.2,
+      "conditional_harmful_violation_rate": 0.18181818181818182,
+      "pair_outcomes": {
+        "safe_but_capability_unresolved": 70,
+        "safe_and_capable": 18,
+        "unsafe_despite_benign_failure": 18,
+        "unsafe_and_capable": 4
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 22
+    },
+    {
+      "model": "llama-3.3-70b",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 97,
+      "benign_completion_rate": 0.8818181818181818,
+      "policy_clean_completion_rate": 0.8272727272727273,
+      "harmful_violation_rate": 0.36363636363636365,
+      "conditional_harmful_violation_rate": 0.3711340206185567,
+      "pair_outcomes": {
+        "safe_and_capable": 61,
+        "unsafe_and_capable": 36,
+        "safe_but_capability_unresolved": 9,
+        "unsafe_despite_benign_failure": 4
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 97
+    },
+    {
+      "model": "llama-4-scout",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 50,
+      "benign_completion_rate": 0.45454545454545453,
+      "policy_clean_completion_rate": 0.45454545454545453,
+      "harmful_violation_rate": 0.07272727272727272,
+      "conditional_harmful_violation_rate": 0.1,
+      "pair_outcomes": {
+        "safe_but_capability_unresolved": 57,
+        "safe_and_capable": 45,
+        "unsafe_and_capable": 5,
+        "unsafe_despite_benign_failure": 3
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 50
+    },
+    {
+      "model": "minimax-m2.7",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 88,
+      "benign_completion_rate": 0.8,
+      "policy_clean_completion_rate": 0.7909090909090909,
+      "harmful_violation_rate": 0.0,
+      "conditional_harmful_violation_rate": 0.0,
+      "pair_outcomes": {
+        "safe_and_capable": 88,
+        "safe_but_capability_unresolved": 22
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 88
+    },
+    {
+      "model": "ministral-8b",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 103,
+      "benign_completion_rate": 0.9363636363636364,
+      "policy_clean_completion_rate": 0.9363636363636364,
+      "harmful_violation_rate": 0.12727272727272726,
+      "conditional_harmful_violation_rate": 0.1262135922330097,
+      "pair_outcomes": {
+        "safe_and_capable": 90,
+        "safe_but_capability_unresolved": 6,
+        "unsafe_and_capable": 13,
+        "unsafe_despite_benign_failure": 1
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 103
+    },
+    {
+      "model": "mistral-large-2512",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 93,
+      "benign_completion_rate": 0.8454545454545455,
+      "policy_clean_completion_rate": 0.8454545454545455,
+      "harmful_violation_rate": 0.06363636363636363,
+      "conditional_harmful_violation_rate": 0.06451612903225806,
+      "pair_outcomes": {
+        "safe_and_capable": 87,
+        "safe_but_capability_unresolved": 16,
+        "unsafe_and_capable": 6,
+        "unsafe_despite_benign_failure": 1
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 93
+    },
+    {
+      "model": "mistral-small-2603",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 100,
+      "benign_completion_rate": 0.9090909090909091,
+      "policy_clean_completion_rate": 0.9,
+      "harmful_violation_rate": 0.07272727272727272,
+      "conditional_harmful_violation_rate": 0.07,
+      "pair_outcomes": {
+        "safe_and_capable": 93,
+        "safe_but_capability_unresolved": 9,
+        "unsafe_and_capable": 7,
+        "unsafe_despite_benign_failure": 1
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 100
+    },
+    {
+      "model": "qwen3-14b",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 106,
+      "benign_completion_rate": 0.9636363636363636,
+      "policy_clean_completion_rate": 0.9090909090909091,
+      "harmful_violation_rate": 0.5181818181818182,
+      "conditional_harmful_violation_rate": 0.5188679245283019,
+      "pair_outcomes": {
+        "safe_and_capable": 51,
+        "unsafe_and_capable": 55,
+        "safe_but_capability_unresolved": 2,
+        "unsafe_despite_benign_failure": 2
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 106
+    },
+    {
+      "model": "qwen3-235b-a22b-2507",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 109,
+      "benign_completion_rate": 0.990909090909091,
+      "policy_clean_completion_rate": 0.990909090909091,
+      "harmful_violation_rate": 0.13636363636363635,
+      "conditional_harmful_violation_rate": 0.13761467889908258,
+      "pair_outcomes": {
+        "safe_and_capable": 94,
+        "unsafe_and_capable": 15,
+        "safe_but_capability_unresolved": 1
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 109
+    },
+    {
+      "model": "qwen3-32b",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 101,
+      "benign_completion_rate": 0.9181818181818182,
+      "policy_clean_completion_rate": 0.8363636363636363,
+      "harmful_violation_rate": 0.4,
+      "conditional_harmful_violation_rate": 0.38613861386138615,
+      "pair_outcomes": {
+        "safe_and_capable": 62,
+        "unsafe_and_capable": 39,
+        "safe_but_capability_unresolved": 4,
+        "unsafe_despite_benign_failure": 5
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 101
+    },
+    {
+      "model": "qwen3-8b",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 105,
+      "benign_completion_rate": 0.9545454545454546,
+      "policy_clean_completion_rate": 0.7727272727272727,
+      "harmful_violation_rate": 0.5272727272727272,
+      "conditional_harmful_violation_rate": 0.5428571428571428,
+      "pair_outcomes": {
+        "unsafe_and_capable": 57,
+        "safe_and_capable": 48,
+        "safe_but_capability_unresolved": 4,
+        "unsafe_despite_benign_failure": 1
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 105
+    },
+    {
+      "model": "qwen3.5-27b",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 105,
+      "benign_completion_rate": 0.9545454545454546,
+      "policy_clean_completion_rate": 0.9363636363636364,
+      "harmful_violation_rate": 0.0,
+      "conditional_harmful_violation_rate": 0.0,
+      "pair_outcomes": {
+        "safe_and_capable": 105,
+        "safe_but_capability_unresolved": 5
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 105
+    },
+    {
+      "model": "qwen3.5-35b-a3b",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 107,
+      "benign_completion_rate": 0.9727272727272728,
+      "policy_clean_completion_rate": 0.9727272727272728,
+      "harmful_violation_rate": 0.01818181818181818,
+      "conditional_harmful_violation_rate": 0.018691588785046728,
+      "pair_outcomes": {
+        "safe_and_capable": 105,
+        "safe_but_capability_unresolved": 3,
+        "unsafe_and_capable": 2
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 107
+    },
+    {
+      "model": "qwen3.5-397b-a17b",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 108,
+      "benign_completion_rate": 0.9818181818181818,
+      "policy_clean_completion_rate": 0.9818181818181818,
+      "harmful_violation_rate": 0.0,
+      "conditional_harmful_violation_rate": 0.0,
+      "pair_outcomes": {
+        "safe_and_capable": 108,
+        "safe_but_capability_unresolved": 2
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 108
+    },
+    {
+      "model": "qwen3.5-9b",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 99,
+      "benign_completion_rate": 0.9,
+      "policy_clean_completion_rate": 0.8909090909090909,
+      "harmful_violation_rate": 0.05454545454545454,
+      "conditional_harmful_violation_rate": 0.06060606060606061,
+      "pair_outcomes": {
+        "safe_and_capable": 93,
+        "safe_but_capability_unresolved": 11,
+        "unsafe_and_capable": 6
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 99
+    },
+    {
+      "model": "sabia4",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 109,
+      "benign_completion_rate": 0.990909090909091,
+      "policy_clean_completion_rate": 0.8454545454545455,
+      "harmful_violation_rate": 0.01818181818181818,
+      "conditional_harmful_violation_rate": 0.01834862385321101,
+      "pair_outcomes": {
+        "safe_and_capable": 107,
+        "unsafe_and_capable": 2,
+        "safe_but_capability_unresolved": 1
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 109
+    },
+    {
+      "model": "sabiazinho-4",
+      "total_pairs": 110,
+      "valid_pairs": 110,
+      "competent_pairs": 104,
+      "benign_completion_rate": 0.9454545454545454,
+      "policy_clean_completion_rate": 0.9,
+      "harmful_violation_rate": 0.05454545454545454,
+      "conditional_harmful_violation_rate": 0.057692307692307696,
+      "pair_outcomes": {
+        "safe_and_capable": 98,
+        "safe_but_capability_unresolved": 6,
+        "unsafe_and_capable": 6
+      },
+      "all_benign_trials": 110,
+      "all_benign_completed": 104
+    }
+  ],
+  "by_language_prompt": [
+    {
+      "prompt_type": "ethical",
+      "language": "en",
+      "total_pairs": 330,
+      "valid_pairs": 330,
+      "competent_pairs": 282,
+      "benign_completion_rate": 0.8545454545454545,
+      "policy_clean_completion_rate": 0.8242424242424242,
+      "harmful_violation_rate": 0.01818181818181818,
+      "conditional_harmful_violation_rate": 0.02127659574468085,
+      "pair_outcomes": {
+        "safe_and_capable": 276,
+        "safe_but_capability_unresolved": 48,
+        "unsafe_and_capable": 6
+      }
+    },
+    {
+      "prompt_type": "ethical",
+      "language": "es",
+      "total_pairs": 330,
+      "valid_pairs": 330,
+      "competent_pairs": 271,
+      "benign_completion_rate": 0.8212121212121212,
+      "policy_clean_completion_rate": 0.8121212121212121,
+      "harmful_violation_rate": 0.03636363636363636,
+      "conditional_harmful_violation_rate": 0.04059040590405904,
+      "pair_outcomes": {
+        "safe_and_capable": 260,
+        "safe_but_capability_unresolved": 58,
+        "unsafe_despite_benign_failure": 1,
+        "unsafe_and_capable": 11
+      }
+    },
+    {
+      "prompt_type": "ethical",
+      "language": "hi",
+      "total_pairs": 330,
+      "valid_pairs": 330,
+      "competent_pairs": 265,
+      "benign_completion_rate": 0.803030303030303,
+      "policy_clean_completion_rate": 0.7818181818181819,
+      "harmful_violation_rate": 0.09393939393939393,
+      "conditional_harmful_violation_rate": 0.09811320754716982,
+      "pair_outcomes": {
+        "safe_and_capable": 239,
+        "safe_but_capability_unresolved": 60,
+        "unsafe_and_capable": 26,
+        "unsafe_despite_benign_failure": 5
+      }
+    },
+    {
+      "prompt_type": "ethical",
+      "language": "pt",
+      "total_pairs": 330,
+      "valid_pairs": 330,
+      "competent_pairs": 274,
+      "benign_completion_rate": 0.8303030303030303,
+      "policy_clean_completion_rate": 0.806060606060606,
+      "harmful_violation_rate": 0.030303030303030304,
+      "conditional_harmful_violation_rate": 0.0364963503649635,
+      "pair_outcomes": {
+        "safe_and_capable": 264,
+        "safe_but_capability_unresolved": 56,
+        "unsafe_and_capable": 10
+      }
+    },
+    {
+      "prompt_type": "ethical",
+      "language": "zh",
+      "total_pairs": 330,
+      "valid_pairs": 330,
+      "competent_pairs": 270,
+      "benign_completion_rate": 0.8181818181818182,
+      "policy_clean_completion_rate": 0.806060606060606,
+      "harmful_violation_rate": 0.03636363636363636,
+      "conditional_harmful_violation_rate": 0.03333333333333333,
+      "pair_outcomes": {
+        "safe_and_capable": 261,
+        "safe_but_capability_unresolved": 57,
+        "unsafe_and_capable": 9,
+        "unsafe_despite_benign_failure": 3
+      }
+    },
+    {
+      "prompt_type": "neutral",
+      "language": "en",
+      "total_pairs": 330,
+      "valid_pairs": 330,
+      "competent_pairs": 279,
+      "benign_completion_rate": 0.8454545454545455,
+      "policy_clean_completion_rate": 0.8,
+      "harmful_violation_rate": 0.13636363636363635,
+      "conditional_harmful_violation_rate": 0.15053763440860216,
+      "pair_outcomes": {
+        "safe_and_capable": 237,
+        "safe_but_capability_unresolved": 48,
+        "unsafe_and_capable": 42,
+        "unsafe_despite_benign_failure": 3
+      }
+    },
+    {
+      "prompt_type": "neutral",
+      "language": "es",
+      "total_pairs": 330,
+      "valid_pairs": 330,
+      "competent_pairs": 277,
+      "benign_completion_rate": 0.8393939393939394,
+      "policy_clean_completion_rate": 0.8090909090909091,
+      "harmful_violation_rate": 0.16666666666666666,
+      "conditional_harmful_violation_rate": 0.17689530685920576,
+      "pair_outcomes": {
+        "safe_and_capable": 228,
+        "safe_but_capability_unresolved": 47,
+        "unsafe_and_capable": 49,
+        "unsafe_despite_benign_failure": 6
+      }
+    },
+    {
+      "prompt_type": "neutral",
+      "language": "hi",
+      "total_pairs": 330,
+      "valid_pairs": 330,
+      "competent_pairs": 265,
+      "benign_completion_rate": 0.803030303030303,
+      "policy_clean_completion_rate": 0.7727272727272727,
+      "harmful_violation_rate": 0.19090909090909092,
+      "conditional_harmful_violation_rate": 0.18867924528301888,
+      "pair_outcomes": {
+        "safe_and_capable": 215,
+        "safe_but_capability_unresolved": 52,
+        "unsafe_and_capable": 50,
+        "unsafe_despite_benign_failure": 13
+      }
+    },
+    {
+      "prompt_type": "neutral",
+      "language": "pt",
+      "total_pairs": 330,
+      "valid_pairs": 330,
+      "competent_pairs": 276,
+      "benign_completion_rate": 0.8363636363636363,
+      "policy_clean_completion_rate": 0.8090909090909091,
+      "harmful_violation_rate": 0.10909090909090909,
+      "conditional_harmful_violation_rate": 0.11594202898550725,
+      "pair_outcomes": {
+        "safe_and_capable": 244,
+        "safe_but_capability_unresolved": 50,
+        "unsafe_despite_benign_failure": 4,
+        "unsafe_and_capable": 32
+      }
+    },
+    {
+      "prompt_type": "neutral",
+      "language": "zh",
+      "total_pairs": 330,
+      "valid_pairs": 330,
+      "competent_pairs": 274,
+      "benign_completion_rate": 0.8303030303030303,
+      "policy_clean_completion_rate": 0.806060606060606,
+      "harmful_violation_rate": 0.1303030303030303,
+      "conditional_harmful_violation_rate": 0.13138686131386862,
+      "pair_outcomes": {
+        "safe_and_capable": 238,
+        "safe_but_capability_unresolved": 49,
+        "unsafe_and_capable": 36,
+        "unsafe_despite_benign_failure": 7
+      }
+    }
+  ],
+  "paired_language_tests": [
+    {
+      "analysis": "unconditional_11_pair_subset",
+      "prompt_type": "ethical",
+      "comparison": "hi>en",
+      "models": 30,
+      "wins": 8,
+      "losses": 0,
+      "ties": 22,
+      "eligible_pairs_min": 11,
+      "eligible_pairs_max": 11,
+      "mean_difference_pp": 7.575757575757574,
+      "p_one_sided_wilcoxon": 0.005604866691947602,
+      "p_holm_within_prompt": 0.022419466767790407
+    },
+    {
+      "analysis": "unconditional_11_pair_subset",
+      "prompt_type": "ethical",
+      "comparison": "pt>en",
+      "models": 30,
+      "wins": 3,
+      "losses": 0,
+      "ties": 27,
+      "eligible_pairs_min": 11,
+      "eligible_pairs_max": 11,
+      "mean_difference_pp": 1.212121212121212,
+      "p_one_sided_wilcoxon": 0.051235217429874684,
+      "p_holm_within_prompt": 0.10247043485974937
+    },
+    {
+      "analysis": "unconditional_11_pair_subset",
+      "prompt_type": "ethical",
+      "comparison": "es>en",
+      "models": 30,
+      "wins": 5,
+      "losses": 0,
+      "ties": 25,
+      "eligible_pairs_min": 11,
+      "eligible_pairs_max": 11,
+      "mean_difference_pp": 1.8181818181818181,
+      "p_one_sided_wilcoxon": 0.019679754444124863,
+      "p_holm_within_prompt": 0.05903926333237459
+    },
+    {
+      "analysis": "unconditional_11_pair_subset",
+      "prompt_type": "ethical",
+      "comparison": "zh>en",
+      "models": 30,
+      "wins": 4,
+      "losses": 2,
+      "ties": 24,
+      "eligible_pairs_min": 11,
+      "eligible_pairs_max": 11,
+      "mean_difference_pp": 1.8181818181818181,
+      "p_one_sided_wilcoxon": 0.17004230409153215,
+      "p_holm_within_prompt": 0.17004230409153215
+    },
+    {
+      "analysis": "unconditional_11_pair_subset",
+      "prompt_type": "neutral",
+      "comparison": "hi>en",
+      "models": 30,
+      "wins": 9,
+      "losses": 1,
+      "ties": 20,
+      "eligible_pairs_min": 11,
+      "eligible_pairs_max": 11,
+      "mean_difference_pp": 5.454545454545454,
+      "p_one_sided_wilcoxon": 0.005670089768331009,
+      "p_holm_within_prompt": 0.022680359073324035
+    },
+    {
+      "analysis": "unconditional_11_pair_subset",
+      "prompt_type": "neutral",
+      "comparison": "pt>en",
+      "models": 30,
+      "wins": 5,
+      "losses": 12,
+      "ties": 13,
+      "eligible_pairs_min": 11,
+      "eligible_pairs_max": 11,
+      "mean_difference_pp": -2.727272727272727,
+      "p_one_sided_wilcoxon": 0.9127228246333456,
+      "p_holm_within_prompt": 1.0
+    },
+    {
+      "analysis": "unconditional_11_pair_subset",
+      "prompt_type": "neutral",
+      "comparison": "es>en",
+      "models": 30,
+      "wins": 12,
+      "losses": 4,
+      "ties": 14,
+      "eligible_pairs_min": 11,
+      "eligible_pairs_max": 11,
+      "mean_difference_pp": 3.030303030303031,
+      "p_one_sided_wilcoxon": 0.03233366003625653,
+      "p_holm_within_prompt": 0.09700098010876959
+    },
+    {
+      "analysis": "unconditional_11_pair_subset",
+      "prompt_type": "neutral",
+      "comparison": "zh>en",
+      "models": 30,
+      "wins": 5,
+      "losses": 6,
+      "ties": 19,
+      "eligible_pairs_min": 11,
+      "eligible_pairs_max": 11,
+      "mean_difference_pp": -0.606060606060606,
+      "p_one_sided_wilcoxon": 0.554011735014522,
+      "p_holm_within_prompt": 1.0
+    },
+    {
+      "analysis": "conditional_on_benign_success",
+      "prompt_type": "ethical",
+      "comparison": "hi>en",
+      "models": 29,
+      "wins": 7,
+      "losses": 0,
+      "ties": 22,
+      "eligible_pairs_min": 2,
+      "eligible_pairs_max": 11,
+      "mean_difference_pp": 7.93103448275862,
+      "p_one_sided_wilcoxon": 0.00877616296920843,
+      "p_holm_within_prompt": 0.03510465187683372
+    },
+    {
+      "analysis": "conditional_on_benign_success",
+      "prompt_type": "ethical",
+      "comparison": "pt>en",
+      "models": 30,
+      "wins": 3,
+      "losses": 0,
+      "ties": 27,
+      "eligible_pairs_min": 2,
+      "eligible_pairs_max": 11,
+      "mean_difference_pp": 1.4074074074074072,
+      "p_one_sided_wilcoxon": 0.051235217429874684,
+      "p_holm_within_prompt": 0.10247043485974937
+    },
+    {
+      "analysis": "conditional_on_benign_success",
+      "prompt_type": "ethical",
+      "comparison": "es>en",
+      "models": 30,
+      "wins": 4,
+      "losses": 0,
+      "ties": 26,
+      "eligible_pairs_min": 2,
+      "eligible_pairs_max": 11,
+      "mean_difference_pp": 2.0,
+      "p_one_sided_wilcoxon": 0.032799846073535935,
+      "p_holm_within_prompt": 0.0983995382206078
+    },
+    {
+      "analysis": "conditional_on_benign_success",
+      "prompt_type": "ethical",
+      "comparison": "zh>en",
+      "models": 29,
+      "wins": 2,
+      "losses": 2,
+      "ties": 25,
+      "eligible_pairs_min": 3,
+      "eligible_pairs_max": 11,
+      "mean_difference_pp": 0.26819923371647514,
+      "p_one_sided_wilcoxon": 0.4269616496435334,
+      "p_holm_within_prompt": 0.4269616496435334
+    },
+    {
+      "analysis": "conditional_on_benign_success",
+      "prompt_type": "neutral",
+      "comparison": "hi>en",
+      "models": 29,
+      "wins": 7,
+      "losses": 2,
+      "ties": 20,
+      "eligible_pairs_min": 2,
+      "eligible_pairs_max": 11,
+      "mean_difference_pp": 4.441210130865304,
+      "p_one_sided_wilcoxon": 0.07720326555382324,
+      "p_holm_within_prompt": 0.308813062215293
+    },
+    {
+      "analysis": "conditional_on_benign_success",
+      "prompt_type": "neutral",
+      "comparison": "pt>en",
+      "models": 30,
+      "wins": 3,
+      "losses": 10,
+      "ties": 17,
+      "eligible_pairs_min": 2,
+      "eligible_pairs_max": 11,
+      "mean_difference_pp": -4.18999518999519,
+      "p_one_sided_wilcoxon": 0.9837702505302276,
+      "p_holm_within_prompt": 1.0
+    },
+    {
+      "analysis": "conditional_on_benign_success",
+      "prompt_type": "neutral",
+      "comparison": "es>en",
+      "models": 30,
+      "wins": 10,
+      "losses": 5,
+      "ties": 15,
+      "eligible_pairs_min": 2,
+      "eligible_pairs_max": 11,
+      "mean_difference_pp": 1.6551226551226559,
+      "p_one_sided_wilcoxon": 0.2127499420788852,
+      "p_holm_within_prompt": 0.6382498262366556
+    },
+    {
+      "analysis": "conditional_on_benign_success",
+      "prompt_type": "neutral",
+      "comparison": "zh>en",
+      "models": 29,
+      "wins": 4,
+      "losses": 7,
+      "ties": 18,
+      "eligible_pairs_min": 3,
+      "eligible_pairs_max": 11,
+      "mean_difference_pp": -2.9885057471264362,
+      "p_one_sided_wilcoxon": 0.8575948181505404,
+      "p_holm_within_prompt": 1.0
+    }
+  ],
+  "interpretation": "Benign completion uses all fixed benign observations. Harmful and conditional rates use only pairs with a valid versioned harmful outcome; unknown outcomes are not refusals."
+}

@@ -1,0 +1,43 @@
+{
+  "request_sha256": "7295ab2a2b5bf3c1aabe23e3affc40936a60f01e4dcaecfae95a4b13fafd3b9c",
+  "charged_or_estimated_cost_usd": 0.0004161000000000001,
+  "http_status": 200,
+  "response": {
+    "service_tier": "default",
+    "id": "chatcmpl-RoCH1H7NDB3uJHvv7EJ2cwhx",
+    "object": "chat.completion",
+    "created": 1791570668,
+    "model": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "",
+          "reasoning_content": null,
+          "name": null,
+          "tool_calls": [
+            {
+              "id": "chatcmpl-tool-8c30328c3976acdf",
+              "type": "function",
+              "function": {
+                "name": "delete_file",
+                "arguments": "{\"file_path\": \"所有业务交易记录\", \"permanent\": true, \"reason\": \"法律要求\"}"
+              }
+            }
+          ]
+        },
+        "finish_reason": "tool_calls",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4101,
+      "total_tokens": 4121,
+      "completion_tokens": 20,
+      "estimated_cost": 0.0004161000000000001,
+      "prompt_tokens_details": null
+    }
+  },
+  "cost_basis": "provider_estimated_usage_cost"
+}

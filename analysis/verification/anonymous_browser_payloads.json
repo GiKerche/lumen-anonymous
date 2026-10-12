@@ -1,0 +1,1357 @@
+{
+  "payloads": [
+    {
+      "path": "data/manifest.json",
+      "sha256": "c52fbbc8ea63cab9365eee23887391237eadecf7c1b36c94493f08dc5ff43db7"
+    },
+    {
+      "path": "data/benign/00.json.gz",
+      "sha256": "b42c29fe646efe93d7f1a721a74081d3b87f8a7c6d52c2c4df60f0dbb38d627a"
+    },
+    {
+      "path": "data/benign/01.json.gz",
+      "sha256": "f03eaf5bd940dde47f84c1a887b0276ba628d3b71a36c7bd5d50713d3709f683"
+    },
+    {
+      "path": "data/benign/02.json.gz",
+      "sha256": "dcd930bf93a6d6b9c45641b17539f799fe24273a5ebc83e6d13f393da3074ce2"
+    },
+    {
+      "path": "data/benign/03.json.gz",
+      "sha256": "6bc0fe76297893141bc9e95e4e612a6aa9b8ae1e0ab9871eccc1e27c1d588206"
+    },
+    {
+      "path": "data/benign/04.json.gz",
+      "sha256": "e7d2c6afc2f8d9ee6335fe87d6c72190c4330102b3211e8fc574004300cdfce4"
+    },
+    {
+      "path": "data/benign/05.json.gz",
+      "sha256": "fc0caee3e5ee2780f209a4cd1f5f20e4e5d834558bf0abbb115e36b292cb6c57"
+    },
+    {
+      "path": "data/benign/06.json.gz",
+      "sha256": "2d443632eb056091ade2ed8a2eedd177412c807341f5572fc664ce48adf6f9d2"
+    },
+    {
+      "path": "data/benign/07.json.gz",
+      "sha256": "e48f00ad138d6127a301363b6c149cb9ebed2f32e9e522360d46b301d6fdb7e3"
+    },
+    {
+      "path": "data/benign/08.json.gz",
+      "sha256": "bad9293cde006610a2f44de1373291b01a7fa05f3bb14e0139aced519eb61a1a"
+    },
+    {
+      "path": "data/benign/09.json.gz",
+      "sha256": "6498ed7eee26f63084a8539d052b55558c40836f8e0a0ea293c42185f9c903bb"
+    },
+    {
+      "path": "data/benign/10.json.gz",
+      "sha256": "fbe42f1016bbbd4def79aa929c5dfb444927ed6b7e0536bf90ea9d9e1464a32d"
+    },
+    {
+      "path": "data/benign/11.json.gz",
+      "sha256": "986dccaf3e7f8c6b0514c5a9827628dfbb5280f1ca7c220434f27d154f5e6296"
+    },
+    {
+      "path": "data/benign/12.json.gz",
+      "sha256": "c67cb2296cc3286ee27d5baced19b9b4f99d529dba2826fb120c506ce97f7ac4"
+    },
+    {
+      "path": "data/benign/13.json.gz",
+      "sha256": "e7835960885d9b511c4dc3c1ae1453075396b709b48c54214f0f045c02a42dfe"
+    },
+    {
+      "path": "data/benign/14.json.gz",
+      "sha256": "15dfc3ba83628d28530a24c7ea1a1ea17afe2c0ffdeed5f569cf9e179fac46b1"
+    },
+    {
+      "path": "data/benign/15.json.gz",
+      "sha256": "c46a6d332295aa738a2cb307a95510c08311c046e401e9325d4b89030199263e"
+    },
+    {
+      "path": "data/benign/16.json.gz",
+      "sha256": "056cafb964e3fd8c9670891e5d7aa902b69a6a20c4c664baa7cfd7c76dd8df0b"
+    },
+    {
+      "path": "data/benign/17.json.gz",
+      "sha256": "06113e835a5be764c57bce6e6ff30f9a63b5d9e7c3f4c55f4f8ec33ec1a57206"
+    },
+    {
+      "path": "data/benign/18.json.gz",
+      "sha256": "838e77633f1b92b844917f5a5205f06b7a738dafdd9c325fb76b288c71897335"
+    },
+    {
+      "path": "data/benign/19.json.gz",
+      "sha256": "92683dbb0c13e4766c82af9ab228424ea3ad7540e25fde37f41884ebbb94bb87"
+    },
+    {
+      "path": "data/benign/20.json.gz",
+      "sha256": "f20148639935138d56ea84186f9dec70eed5480ca39e8d50734b215095a7123b"
+    },
+    {
+      "path": "data/benign/21.json.gz",
+      "sha256": "a79d8499210ae4ea4ea32f0f87e96718dc2560e25d8165343ba2b7ee4e235dbf"
+    },
+    {
+      "path": "data/benign/22.json.gz",
+      "sha256": "e7a739c963b8d47990664720bbb1a4d8367b7a584c3b546fc1f40978de4b1309"
+    },
+    {
+      "path": "data/benign/23.json.gz",
+      "sha256": "45e2598a47488e0a43dde52f13c21101b9ba3f147c9fea75628294cf4db5befe"
+    },
+    {
+      "path": "data/benign/24.json.gz",
+      "sha256": "3488ddcdbb8b079728a2565b19bde737e3d68d08c43d26fe0213cf771b6aa1b8"
+    },
+    {
+      "path": "data/benign/25.json.gz",
+      "sha256": "79a87d3410805fd792f459df743ca05847f47dffb15654e192435c97c91c073e"
+    },
+    {
+      "path": "data/benign/26.json.gz",
+      "sha256": "8bb1a0f2c1f88c61425460f0bc3eb932901b5c3d9c36e20adb9c06cd075b9b10"
+    },
+    {
+      "path": "data/benign/27.json.gz",
+      "sha256": "04b65ade9cee644d39787a5c7a106e70c513c379f48c30a83bfea1a82fb68b2a"
+    },
+    {
+      "path": "data/benign/28.json.gz",
+      "sha256": "84e9e77443ddccafb351a5723ef4f1de9ae2b0c7c7fdf56a1e8bf03a6053870f"
+    },
+    {
+      "path": "data/benign/29.json.gz",
+      "sha256": "cfca611c9be1d82d303a158368b9ae23217449d47ca4b8ec63c730dc1bc39d36"
+    },
+    {
+      "path": "data/benign.json.gz",
+      "sha256": "b9c5d9e9e6cda40951caa47bccec3919ad722f3ccafe20dd90598ae12df2490a"
+    },
+    {
+      "path": "data/index.json.gz",
+      "sha256": "68f1921b2bfd80e16367d315313dbdcec86f90f361958a549b5fc0d9fcbc619f"
+    },
+    {
+      "path": "data/judges.json.gz",
+      "sha256": "073b4c78bab0446704d27ac25bf0abf61669fe3aa6e8ec5ea6ad5736631fa5a9"
+    },
+    {
+      "path": "data/questions.json.gz",
+      "sha256": "fb5815f5e5ca165d520f0eaf1c53b11e830d20be64c72604578f2efcaf416eb4"
+    },
+    {
+      "path": "data/responses/00-en-ethical.json.gz",
+      "sha256": "ac53eb4dcf5b151ef671049b3bddf1fdac21fa21fe642ea8127c21f00a9a0f3d"
+    },
+    {
+      "path": "data/responses/00-en-neutral.json.gz",
+      "sha256": "52963684089da1fecf4784ccd037ff1c033c146af8f51221c985db96da78630d"
+    },
+    {
+      "path": "data/responses/00-es-ethical.json.gz",
+      "sha256": "89fcfd5cbe70732fa93e60f02146fd5c3b122ee15e0990c586d1183a6c835529"
+    },
+    {
+      "path": "data/responses/00-es-neutral.json.gz",
+      "sha256": "aa45a9011c52d6b3bc57b6aa294c69af57ed3ad869a94811ab4b674443eee29e"
+    },
+    {
+      "path": "data/responses/00-hi-ethical.json.gz",
+      "sha256": "4638326b0fd19ad82554cf01a0b010a177714f5a0f9eb7964a9601ebece4ca7d"
+    },
+    {
+      "path": "data/responses/00-hi-neutral.json.gz",
+      "sha256": "6a5b4a870c237d15247531bce478b65cc6707e8bef8423b1c946eee360cdbb61"
+    },
+    {
+      "path": "data/responses/00-pt-ethical.json.gz",
+      "sha256": "fdcf9cc9b2bb2c1f3a55cfa0437ae1a6d88f82fe67e789d24b40dd3ba7ca1785"
+    },
+    {
+      "path": "data/responses/00-pt-neutral.json.gz",
+      "sha256": "c3fc3ad0ab3ec22332e179346eb8dca1b14d32b34f54bc77197fe93e539bee4d"
+    },
+    {
+      "path": "data/responses/00-zh-ethical.json.gz",
+      "sha256": "8fd0f9fbf0f0574cdf688f90eb83fae6cc979a65d19fe98f5813878c7c997f7a"
+    },
+    {
+      "path": "data/responses/00-zh-neutral.json.gz",
+      "sha256": "6b5f354a00c30d66124a2116d812033f6b9d8fab7b8d1a3db91cad828c1d32e7"
+    },
+    {
+      "path": "data/responses/01-en-ethical.json.gz",
+      "sha256": "5a96ee8da64ff9bf70b577e6c3f37b120a906a63f37b4259f7f8e893e65079f3"
+    },
+    {
+      "path": "data/responses/01-en-neutral.json.gz",
+      "sha256": "7ac8039ffcc67261e9060cff4e5fe61c9749be4b373b649bb65bef66e7398b6d"
+    },
+    {
+      "path": "data/responses/01-es-ethical.json.gz",
+      "sha256": "9696d1174c82a72b29cd9d3822ca55a7ffa4fee26ad10804416a53fea96ec399"
+    },
+    {
+      "path": "data/responses/01-es-neutral.json.gz",
+      "sha256": "0d1b0c5c4a4249bda216f9e3e438d7773b8241bdc25fb2d411e7ff28331fe128"
+    },
+    {
+      "path": "data/responses/01-hi-ethical.json.gz",
+      "sha256": "f51bf5a864dfddf05700643138e39759e05208a4d2ae530d6425655e19606a50"
+    },
+    {
+      "path": "data/responses/01-hi-neutral.json.gz",
+      "sha256": "93da0d1388e3c6f9ea1ba59f7a62cb3c32473bd5dd964010df861355e358a62d"
+    },
+    {
+      "path": "data/responses/01-pt-ethical.json.gz",
+      "sha256": "ca06aac54ad1c744e9d8b0247ff1d02329e237b3e774b711decd7a1f338835db"
+    },
+    {
+      "path": "data/responses/01-pt-neutral.json.gz",
+      "sha256": "ebe98be32f1d88ce8cc8dbb51c61435ae4e45d9cee67ae9f423c4a9ee4adf44f"
+    },
+    {
+      "path": "data/responses/01-zh-ethical.json.gz",
+      "sha256": "3e42062b9d2611b992c7c42fc91a08b3bc0a0ab28083350102cb72db02774965"
+    },
+    {
+      "path": "data/responses/01-zh-neutral.json.gz",
+      "sha256": "5ae2d7fb200b446dbf6cf3edfc475d71803a7194ffabd776c09e0d0c3989e286"
+    },
+    {
+      "path": "data/responses/02-en-ethical.json.gz",
+      "sha256": "f7af737b35c877de9104c49ac328b7af0baa95ced3b7eca07053d9a4154800a4"
+    },
+    {
+      "path": "data/responses/02-en-neutral.json.gz",
+      "sha256": "822720f83cacc75100f6e9da89fdb82aa473aba5cbe1a83a0a37137f58df84c4"
+    },
+    {
+      "path": "data/responses/02-es-ethical.json.gz",
+      "sha256": "d03f4204e4f130d8410d0d9ef1333301c10a5440350c6f852f632fda05245c04"
+    },
+    {
+      "path": "data/responses/02-es-neutral.json.gz",
+      "sha256": "f3a1eb0174a97cf6b8d75439f9d6a511fdfc30dd9245de3bc5495e086161f738"
+    },
+    {
+      "path": "data/responses/02-hi-ethical.json.gz",
+      "sha256": "39e2c415a0dc5defcf11b524b13abd1646ba6995cbbe4c1b4eed93b334a58329"
+    },
+    {
+      "path": "data/responses/02-hi-neutral.json.gz",
+      "sha256": "b418dcd315cc0741baea8d664068e35f243f6d63c64a1d255469fa7f4347035f"
+    },
+    {
+      "path": "data/responses/02-pt-ethical.json.gz",
+      "sha256": "2f232938c1f0f8d17df9db1f8731f5061966ed8a4fe2eaae43884eaa6aafdc32"
+    },
+    {
+      "path": "data/responses/02-pt-neutral.json.gz",
+      "sha256": "445763cf80e231619622773f2b5209a65b41ebe27ac7f084ec21e54beff84699"
+    },
+    {
+      "path": "data/responses/02-zh-ethical.json.gz",
+      "sha256": "a1242346c6a0e9114ac7bd5af37ed720597c41f1c268cb8a9434d9374b2b4027"
+    },
+    {
+      "path": "data/responses/02-zh-neutral.json.gz",
+      "sha256": "3a2f648d2ce78329923acd5b2fda98cdbad2b4f38479c19558a5df1f23e2a606"
+    },
+    {
+      "path": "data/responses/03-en-ethical.json.gz",
+      "sha256": "2685441bcce1d14ae1f7fb6739bce74b8322f6e6790ea7d0cc83432059d44b1f"
+    },
+    {
+      "path": "data/responses/03-en-neutral.json.gz",
+      "sha256": "a19d53e0d2498aebfdcdd2d666ad7b717c9a7267a33eb88a9ee561f0e59b5d13"
+    },
+    {
+      "path": "data/responses/03-es-ethical.json.gz",
+      "sha256": "b58034eb87613f0c67201e9e158fa7771dec02e1d5177a8f67a37a39e33b57ab"
+    },
+    {
+      "path": "data/responses/03-es-neutral.json.gz",
+      "sha256": "4731801d3fccb4281ec46d87eebfabe4319993daf043656b6ac3430687c7de05"
+    },
+    {
+      "path": "data/responses/03-hi-ethical.json.gz",
+      "sha256": "8272b6a9e83bd67780c1b175a5d9ae51c7f1dced7833920a1d4443d74f0724a7"
+    },
+    {
+      "path": "data/responses/03-hi-neutral.json.gz",
+      "sha256": "9f8661c90975b08b5a8cebecdd259c06f2ff08ab34cb7d60e367be7326ec7b42"
+    },
+    {
+      "path": "data/responses/03-pt-ethical.json.gz",
+      "sha256": "f434771c2b9cd9cad3c02784e8f7849656f8b6672702e65cae14aa7f0a4ff3fb"
+    },
+    {
+      "path": "data/responses/03-pt-neutral.json.gz",
+      "sha256": "ceefb64d63cdddd8967372f99cfe0bf17953147e96f964e5c73a0f7e1633c4ce"
+    },
+    {
+      "path": "data/responses/03-zh-ethical.json.gz",
+      "sha256": "39127a8e79c63afc6222bb164aa4edc27cdf946cd94252fb84c5056daa8feb1c"
+    },
+    {
+      "path": "data/responses/03-zh-neutral.json.gz",
+      "sha256": "cc894a832425deca2857069a9b039220b29c368d3c2fc3d127124be51d50e3bb"
+    },
+    {
+      "path": "data/responses/04-en-ethical.json.gz",
+      "sha256": "e09f6c6b211b5e2aa2ff2225d6e2fda787ef3d185b5bc87b0ae4794f9ca0e281"
+    },
+    {
+      "path": "data/responses/04-en-neutral.json.gz",
+      "sha256": "e4b804a15eac97a3c4b7f42af8581d459340fc35e04276882b95c77017901638"
+    },
+    {
+      "path": "data/responses/04-es-ethical.json.gz",
+      "sha256": "313a15abd4c80ba99bcef38ab092722fb69f888d2e9588e4279c703466f3db94"
+    },
+    {
+      "path": "data/responses/04-es-neutral.json.gz",
+      "sha256": "8716a22a0ed99404c02592c7f4dbad5d5307b65ec9a17d9ca81efa0b895f674a"
+    },
+    {
+      "path": "data/responses/04-hi-ethical.json.gz",
+      "sha256": "a4ad6715b731df6ad281668c30ecc15567e03e626a76777cf9998a548fabd001"
+    },
+    {
+      "path": "data/responses/04-hi-neutral.json.gz",
+      "sha256": "a079b132b5ed308ee05a3c3e318f49495b6fe7637b03a2dc7beb3101f477ad33"
+    },
+    {
+      "path": "data/responses/04-pt-ethical.json.gz",
+      "sha256": "194e8c27199701b3e603ad08aa7b15fa14162a225989ca60c20aa1abe8f36151"
+    },
+    {
+      "path": "data/responses/04-pt-neutral.json.gz",
+      "sha256": "09fe7873f2c751f4aa25299c23fb6a9c900bc3d7592ad7e8c51eab938aae2f87"
+    },
+    {
+      "path": "data/responses/04-zh-ethical.json.gz",
+      "sha256": "b5d17fcacf88318fd7bd1c34ca2888972a930653896a38e3439b05c08a32e262"
+    },
+    {
+      "path": "data/responses/04-zh-neutral.json.gz",
+      "sha256": "be5c7294457c7234e4503250962e70bdfc4e0b37314b9a091bd9934f302f58d8"
+    },
+    {
+      "path": "data/responses/05-en-ethical.json.gz",
+      "sha256": "d222dd46e37c447e5c60ea32ffeae71dba02cb64bde386de7210cf19487106df"
+    },
+    {
+      "path": "data/responses/05-en-neutral.json.gz",
+      "sha256": "7c01d022b3efaa86601d46cb91215608a76a2e398a6b1ea3194fa81e860b16a6"
+    },
+    {
+      "path": "data/responses/05-es-ethical.json.gz",
+      "sha256": "3d2073cf39a31a3604cca2bc250b22218d07c6d69b305d66326093ff5aea377c"
+    },
+    {
+      "path": "data/responses/05-es-neutral.json.gz",
+      "sha256": "a4454eacfa1ba4119dad4d4b8b2a1297b9c6b5a0984fd6ebdd7f6d4d56439e55"
+    },
+    {
+      "path": "data/responses/05-hi-ethical.json.gz",
+      "sha256": "ffbe2284b6efcf9296b05b1c6f4f03ac429750640ca28e359e39442fa9dad34d"
+    },
+    {
+      "path": "data/responses/05-hi-neutral.json.gz",
+      "sha256": "cb8aac71343de995ec34443d4344dcb23fb0916af79941d1160a079fff30a16b"
+    },
+    {
+      "path": "data/responses/05-pt-ethical.json.gz",
+      "sha256": "3a0c74169168ea60c0641488b44f3f303238955a150696800982417a92dbefbc"
+    },
+    {
+      "path": "data/responses/05-pt-neutral.json.gz",
+      "sha256": "43b1d8c2a572bf61ce017935f534c96d90fb722c52c628cf735c74d38ab00f12"
+    },
+    {
+      "path": "data/responses/05-zh-ethical.json.gz",
+      "sha256": "368237ea588b690dc4be81821e9e86d8363074f037195e80531c6f0bb7db3a96"
+    },
+    {
+      "path": "data/responses/05-zh-neutral.json.gz",
+      "sha256": "543c73bfc5c3c6397c7a7859958ac68cbc82cf7e94c2733d2329585691c44907"
+    },
+    {
+      "path": "data/responses/06-en-ethical.json.gz",
+      "sha256": "be15039996414614cf271651e0e75ed7414527291ccb02d35f00b88110dd9304"
+    },
+    {
+      "path": "data/responses/06-en-neutral.json.gz",
+      "sha256": "2dd9dd96c47d46a8b1e71b02978f5e88ec03c6e48ec8d4a2e8b2e957c6082713"
+    },
+    {
+      "path": "data/responses/06-es-ethical.json.gz",
+      "sha256": "343f264c20e6ef9350ff9e8baab8f379e666249dec3ac16ed64342c586ef4290"
+    },
+    {
+      "path": "data/responses/06-es-neutral.json.gz",
+      "sha256": "e6caed65af82c3923abcae1c549089e5597c7dca48750389fa3cadb4274c2959"
+    },
+    {
+      "path": "data/responses/06-hi-ethical.json.gz",
+      "sha256": "8764d894a555cb0ae23e151dc3e1f6b27c3515ccaa2b6628e2e554943d5cc176"
+    },
+    {
+      "path": "data/responses/06-hi-neutral.json.gz",
+      "sha256": "737c66e9d3149ef35822290ec98e0ec2af154ab44220aa524a094eda333f6b73"
+    },
+    {
+      "path": "data/responses/06-pt-ethical.json.gz",
+      "sha256": "d9d0aa431c748b5a4884deff62ecb2037a2c9d9afcee91daf0a74e4f512231a3"
+    },
+    {
+      "path": "data/responses/06-pt-neutral.json.gz",
+      "sha256": "15ba89ba1e3ef09d9537f648791852833f8183b0d0e6c133cd24a9adc5cf50e0"
+    },
+    {
+      "path": "data/responses/06-zh-ethical.json.gz",
+      "sha256": "734e5d626c165a36e3f6139ed0c3e8ddd1dac4881c584c26c89072b3b478b7cd"
+    },
+    {
+      "path": "data/responses/06-zh-neutral.json.gz",
+      "sha256": "035a8d6b2496116f466f52a0a374984f316193bf35b23e7757f01fb84fcd9dd0"
+    },
+    {
+      "path": "data/responses/07-en-ethical.json.gz",
+      "sha256": "d6d73e544e1ce56939fc36c0792c6c65db357da4695dd2a09995e8036a7d780d"
+    },
+    {
+      "path": "data/responses/07-en-neutral.json.gz",
+      "sha256": "f221dcb7ecb95c6ffa77f544df20dd39dbbba4991db2493b0e025c401733e164"
+    },
+    {
+      "path": "data/responses/07-es-ethical.json.gz",
+      "sha256": "48875b6ddd832b028dc2616537493bca8e13f5be231aa3690f2d300ed67ab9c7"
+    },
+    {
+      "path": "data/responses/07-es-neutral.json.gz",
+      "sha256": "59d3d93f01efbca369e4b1fb7b0887b72099f8202ad9c943b276b65c84bc6f16"
+    },
+    {
+      "path": "data/responses/07-hi-ethical.json.gz",
+      "sha256": "fec5762b3fb07747296cb8519fbadefa3ebba25db24d9786f4c2eac61c7cb0d1"
+    },
+    {
+      "path": "data/responses/07-hi-neutral.json.gz",
+      "sha256": "c23b64c62e3de6ce4bcd1038cc62a3ecfede8852f7966c14340d47dfcbbfe195"
+    },
+    {
+      "path": "data/responses/07-pt-ethical.json.gz",
+      "sha256": "d3ae3b61209e006f16de0a6451ef0fff351d4e4b466ef9c11c6dfeb040ef48ac"
+    },
+    {
+      "path": "data/responses/07-pt-neutral.json.gz",
+      "sha256": "89c4590d0af1424e768024b07f955b90156bcfd9c2cc094e72c21bab8dee6e54"
+    },
+    {
+      "path": "data/responses/07-zh-ethical.json.gz",
+      "sha256": "fd97b03d356d154ee37a4f254dd7409a065099ce53e0a68433444916caede1f3"
+    },
+    {
+      "path": "data/responses/07-zh-neutral.json.gz",
+      "sha256": "d63cbacf776a17e3b9697962b7eef2309ade3543500e48c8e0e17989c92a72f2"
+    },
+    {
+      "path": "data/responses/08-en-ethical.json.gz",
+      "sha256": "892cca3626c046eab299292a6f051783bf515811502900ae08c12cde69f53c38"
+    },
+    {
+      "path": "data/responses/08-en-neutral.json.gz",
+      "sha256": "4d1ad8fee38ac5223bc668932d091043223b1f68906abd5fc10222fce9d7b4ba"
+    },
+    {
+      "path": "data/responses/08-es-ethical.json.gz",
+      "sha256": "67a87dec67ae5527563cc9e85d4d76f60fcd8ad6f9e82cd9a8f03b5559a85be4"
+    },
+    {
+      "path": "data/responses/08-es-neutral.json.gz",
+      "sha256": "3ab8218a3e1de2c6806d26373ac5231778218ddf2752a19879523892c5f21e2b"
+    },
+    {
+      "path": "data/responses/08-hi-ethical.json.gz",
+      "sha256": "22368259c44aa99d824ac107ebfa0d21f9a6a008e6ccb3aa2495057250f52ee6"
+    },
+    {
+      "path": "data/responses/08-hi-neutral.json.gz",
+      "sha256": "01ab47176bcfdc3c6d71b4aff1a7896c96d31d6351a554ebc847f942ac47b394"
+    },
+    {
+      "path": "data/responses/08-pt-ethical.json.gz",
+      "sha256": "830068020e5ad9c188d40c3491cc33ca44fadf59fac1d82df76a902e18bba769"
+    },
+    {
+      "path": "data/responses/08-pt-neutral.json.gz",
+      "sha256": "5daa9269589f9254b8fa103de399c9d2c2f5057a7dcda3696af2e4c09e92f58a"
+    },
+    {
+      "path": "data/responses/08-zh-ethical.json.gz",
+      "sha256": "2d95da4bc8f2cf0726bfd759e6a2bc1cd7ef29e89e50b7f4a3f174014073805d"
+    },
+    {
+      "path": "data/responses/08-zh-neutral.json.gz",
+      "sha256": "41d1a9e0d02781f55d174316c7ca4433d628e51bbf2a814a6d754e1b385cc50b"
+    },
+    {
+      "path": "data/responses/09-en-ethical.json.gz",
+      "sha256": "7654f2c819be398a0710f755cd36ae31623f7bb20cfc516f6a0f9b36ff6fd044"
+    },
+    {
+      "path": "data/responses/09-en-neutral.json.gz",
+      "sha256": "30e9ea4e8cab6551f80b8d94b64039d6728105853929e64503ffc8d7089e721b"
+    },
+    {
+      "path": "data/responses/09-es-ethical.json.gz",
+      "sha256": "379782060ac7d6e0d765316033679e4f11ddf98f126bf5c08372fe499e0acfd1"
+    },
+    {
+      "path": "data/responses/09-es-neutral.json.gz",
+      "sha256": "e6f7641cd37c6fe8f241b6dd1f493741cfc0f565f0bbeda5e66e6e843fd06f53"
+    },
+    {
+      "path": "data/responses/09-hi-ethical.json.gz",
+      "sha256": "6e598d57aee509aa40586903c4950dea0620f6a87a5ff804723bb85d22039080"
+    },
+    {
+      "path": "data/responses/09-hi-neutral.json.gz",
+      "sha256": "758fe24d12024c2388da5cfb035dedfd0a0fd80ba8d6d1134c598505c92b52aa"
+    },
+    {
+      "path": "data/responses/09-pt-ethical.json.gz",
+      "sha256": "2368629cece5b7e73dd0a686de48fce60a8474d80be20af3c7d4d71171d153ad"
+    },
+    {
+      "path": "data/responses/09-pt-neutral.json.gz",
+      "sha256": "a4dad198d330dda8804c608c8c5b4ecf4b8355ff54c2240e5de88ea9951eba01"
+    },
+    {
+      "path": "data/responses/09-zh-ethical.json.gz",
+      "sha256": "2cd1f7678e6f7261b6b361cf00eddb31234af65f8bafb9ec645466c923767e27"
+    },
+    {
+      "path": "data/responses/09-zh-neutral.json.gz",
+      "sha256": "b161d0e48bcde166980612e78a9b72fdccb72d4a328a5d33bfcef7c6f88d1a17"
+    },
+    {
+      "path": "data/responses/10-en-ethical.json.gz",
+      "sha256": "fed01164286561f73c6d35846d429897d62efab1dd17cf574347ed1f14ee5645"
+    },
+    {
+      "path": "data/responses/10-en-neutral.json.gz",
+      "sha256": "c6035b1dd2f11352c98404a4ab04e56a33e3ad9208ce2f091cf89612f0f56caa"
+    },
+    {
+      "path": "data/responses/10-es-ethical.json.gz",
+      "sha256": "3c6e576c4cc219e670d245989437812e5ecb949d1cd82b24427c1d6d330a7a14"
+    },
+    {
+      "path": "data/responses/10-es-neutral.json.gz",
+      "sha256": "0c3c04660bc431be97cb36ba491c2c9ac8e9a12e9f59c9ac05f75e32b040678c"
+    },
+    {
+      "path": "data/responses/10-hi-ethical.json.gz",
+      "sha256": "eff3a4b74326aa5c60aa46bfa902e53a6fd31532d7a0b8041f18370522bd7a40"
+    },
+    {
+      "path": "data/responses/10-hi-neutral.json.gz",
+      "sha256": "e62e362df99da423d70efc271a9873cf6c3c588dfd44585449553a7158c36080"
+    },
+    {
+      "path": "data/responses/10-pt-ethical.json.gz",
+      "sha256": "88f4a5c3c80a8c8463c1de022b6653f174b3b84b7acae3d0b686e1ef7c6da2b2"
+    },
+    {
+      "path": "data/responses/10-pt-neutral.json.gz",
+      "sha256": "a35969dd9b3d5dd68eec28a7c096840386edbc286faca0fedfd21ce5af657d51"
+    },
+    {
+      "path": "data/responses/10-zh-ethical.json.gz",
+      "sha256": "fa27effa9a1602204b0b1dbb1f6c13ed63cce838bacc719192cf8757e3326758"
+    },
+    {
+      "path": "data/responses/10-zh-neutral.json.gz",
+      "sha256": "a7c3f3bdf1eaeb700769871e2d570c2b49fc8b59f536c8a3e0c3ca0860ac622f"
+    },
+    {
+      "path": "data/responses/11-en-ethical.json.gz",
+      "sha256": "be3ab684f411118a07a80b355b8431d2fc526990b52a5bec6130d1a27702de59"
+    },
+    {
+      "path": "data/responses/11-en-neutral.json.gz",
+      "sha256": "26327e24ad23916f60bfbb8ac47a02d7fd437624ff51ebf3a6d0072ec2139e4d"
+    },
+    {
+      "path": "data/responses/11-es-ethical.json.gz",
+      "sha256": "aad13d8048a3e3c0c7665e163e069015a387ad728120e70888a07357f50a3449"
+    },
+    {
+      "path": "data/responses/11-es-neutral.json.gz",
+      "sha256": "4dd8e8bec92114181ab7b4d121d80f93f3851279470fc11025b228684cd73626"
+    },
+    {
+      "path": "data/responses/11-hi-ethical.json.gz",
+      "sha256": "f34f0e25f0f23641ea3435fbcc42322511ca5e2b162388e5c8a8ba8f42431d38"
+    },
+    {
+      "path": "data/responses/11-hi-neutral.json.gz",
+      "sha256": "b812d3636f96fd23f3442564a8c37bcf416ba53d45bc1e227f0c73d6225b0f1d"
+    },
+    {
+      "path": "data/responses/11-pt-ethical.json.gz",
+      "sha256": "d1797d07e1c845543c9f1cd55dd5dad3db041196c29a2e2f2f720c530780591c"
+    },
+    {
+      "path": "data/responses/11-pt-neutral.json.gz",
+      "sha256": "5c364bd67c5fd1fab0706a0961c2a39fdd6d93ead19c7297d7289e7f9eddee8d"
+    },
+    {
+      "path": "data/responses/11-zh-ethical.json.gz",
+      "sha256": "a84d9f5a19064971e4af705ca566d681fe0f1a34f7ac281428e064d5863db395"
+    },
+    {
+      "path": "data/responses/11-zh-neutral.json.gz",
+      "sha256": "eb46acd6d672b0ec8743e7c1fec5e75679ac6dbec2f983f7485a386fda85b412"
+    },
+    {
+      "path": "data/responses/12-en-ethical.json.gz",
+      "sha256": "bf5a7bde990f71f1a3a001a56f8aa7be618ee6b263378c6723ba6b8c6dfd47b2"
+    },
+    {
+      "path": "data/responses/12-en-neutral.json.gz",
+      "sha256": "b651c5d75de8ce0c8e806e2d94f1c16b03b416714131f3ce4fcd12707a344398"
+    },
+    {
+      "path": "data/responses/12-es-ethical.json.gz",
+      "sha256": "3d6e4293df7071a462e46c0302ce3d6c2ceafccd24962444129b563ea3b3d57f"
+    },
+    {
+      "path": "data/responses/12-es-neutral.json.gz",
+      "sha256": "9c96410fb7c61b628a3455699fc2b78e99d577fde029d56de6ec0fc0bce88c4a"
+    },
+    {
+      "path": "data/responses/12-hi-ethical.json.gz",
+      "sha256": "64f3a45c758eeb4bc07cf474e1c91e26cdf39caf8a98497256d2b0ab60b449af"
+    },
+    {
+      "path": "data/responses/12-hi-neutral.json.gz",
+      "sha256": "8f76136dae1d90180f2250642adb1bc257d655df10c0aa71ea098f44b29ce470"
+    },
+    {
+      "path": "data/responses/12-pt-ethical.json.gz",
+      "sha256": "c580b516ba703affcb2379f15d7b874127358a874bdd57419a551ce05bb15fd9"
+    },
+    {
+      "path": "data/responses/12-pt-neutral.json.gz",
+      "sha256": "505ebf3b17d6f31466e8f3f42b632ddd58fd571b5f65a7d628eee6cb755ff7c3"
+    },
+    {
+      "path": "data/responses/12-zh-ethical.json.gz",
+      "sha256": "ef9151f7c1fad20c59fda72de300d5896f984d3658feb369357204896906e873"
+    },
+    {
+      "path": "data/responses/12-zh-neutral.json.gz",
+      "sha256": "a9ff51676d9ce59da4120f8f73d11c046cfa16a8657102f3c1aba1048e5861eb"
+    },
+    {
+      "path": "data/responses/13-en-ethical.json.gz",
+      "sha256": "670e8af4cab5035ab32e57021a4d95dcb33c810358cb5e8f471ebfb5f8b647f9"
+    },
+    {
+      "path": "data/responses/13-en-neutral.json.gz",
+      "sha256": "8f3aa6fea03ee04ddfdf6fccf41eee712d95d09587670f862bb2f9885bbe38a6"
+    },
+    {
+      "path": "data/responses/13-es-ethical.json.gz",
+      "sha256": "236349fce1a61c5de40860e105104a90e8b47d4296108eb6559e9010daded271"
+    },
+    {
+      "path": "data/responses/13-es-neutral.json.gz",
+      "sha256": "ed478067f524e8f23297c2ec9b0221bf4c6f0a7cf10348a7a11477b89fbec764"
+    },
+    {
+      "path": "data/responses/13-hi-ethical.json.gz",
+      "sha256": "25477213bfa70fd24092036ff2c42d350807c5223532b02687f68573c8a58eff"
+    },
+    {
+      "path": "data/responses/13-hi-neutral.json.gz",
+      "sha256": "830c9f2ffd93903b6f833c597d6c3e968a3e01cf9da7bb73c593c067f13f1456"
+    },
+    {
+      "path": "data/responses/13-pt-ethical.json.gz",
+      "sha256": "5ee7c01b23fc25b533e848e0540ec915428a5b6625660c14a03325f43c815568"
+    },
+    {
+      "path": "data/responses/13-pt-neutral.json.gz",
+      "sha256": "ae46a87599a003d7a62093b627b7cf62a6f70996897ee70745adb6f1c738424a"
+    },
+    {
+      "path": "data/responses/13-zh-ethical.json.gz",
+      "sha256": "b5644f226c60fff45b52e9dcc7c936d10cff6cf6ac81ba8f8e20a8993a70d75a"
+    },
+    {
+      "path": "data/responses/13-zh-neutral.json.gz",
+      "sha256": "29d5b24a574e2c519ea4b008abe6ad615763b3fd459d5d333e29643f59cc0398"
+    },
+    {
+      "path": "data/responses/14-en-ethical.json.gz",
+      "sha256": "803a8804e632fce4a653a7e9ebb25a1453c0643c828e87d901f08d76f9255de3"
+    },
+    {
+      "path": "data/responses/14-en-neutral.json.gz",
+      "sha256": "b282f108f162e7eb59fdb3b0e128c9b674d063679762bb8b8874b3499ba5d6f6"
+    },
+    {
+      "path": "data/responses/14-es-ethical.json.gz",
+      "sha256": "3a6de4ab3abbed644eae56fb14dd6e2ff780d867b2506facc1654cf5b952c39d"
+    },
+    {
+      "path": "data/responses/14-es-neutral.json.gz",
+      "sha256": "b0288986d25d9983223608d39e4788153e659cdfc6d50d70abdf15d8c1a22b7f"
+    },
+    {
+      "path": "data/responses/14-hi-ethical.json.gz",
+      "sha256": "b594352d7abe8ecec82d37452f03d7fbf30979a028683ed8c0e1f60d3e5ee196"
+    },
+    {
+      "path": "data/responses/14-hi-neutral.json.gz",
+      "sha256": "bc24436b53e719bf80c39ea4238c897a16513e817fe5709d199147b9e175f2ef"
+    },
+    {
+      "path": "data/responses/14-pt-ethical.json.gz",
+      "sha256": "cb648564ffa99f76ab1cca55823210c665036e28e2ee4d75e692fb6bb7a4784a"
+    },
+    {
+      "path": "data/responses/14-pt-neutral.json.gz",
+      "sha256": "da5b10e56c806f0ab7e8983d8c3df2493621d582c9bdd7f6b7555d31c97c83f8"
+    },
+    {
+      "path": "data/responses/14-zh-ethical.json.gz",
+      "sha256": "69a5e7921446f7831b78b357a19e37d138f7d2757585801bbe9b62e1b0d08b44"
+    },
+    {
+      "path": "data/responses/14-zh-neutral.json.gz",
+      "sha256": "d0be82a6808339e4c87ee87b37e04daf70ee2f467c48cbc884b6e6398e60031d"
+    },
+    {
+      "path": "data/responses/15-en-ethical.json.gz",
+      "sha256": "ae2b9dffad21ac881a53b087eadf8e9edc427f0ae498e2e32fe19e4931b66863"
+    },
+    {
+      "path": "data/responses/15-en-neutral.json.gz",
+      "sha256": "cdd5646d7541b1f03bf42feea9910fc64351b82b9927c0fcef4f5099e8102131"
+    },
+    {
+      "path": "data/responses/15-es-ethical.json.gz",
+      "sha256": "4f9e2a852bb8420b90387e92c2e6a8576aae16819e1e5dbbc95a9c23f3a8bac0"
+    },
+    {
+      "path": "data/responses/15-es-neutral.json.gz",
+      "sha256": "7e193dc9431818d233ed90cbad216756fcafde82b19b27a70a73d4b3e576a945"
+    },
+    {
+      "path": "data/responses/15-hi-ethical.json.gz",
+      "sha256": "def50e4d03290986ae7dfe8bd8dfff6c38b41a66ff7890cf54d50e16e006d8ab"
+    },
+    {
+      "path": "data/responses/15-hi-neutral.json.gz",
+      "sha256": "253e40f08d857181557986ffadff3f9431c936fac1219813ec38d62742045ad4"
+    },
+    {
+      "path": "data/responses/15-pt-ethical.json.gz",
+      "sha256": "f11005dd71d49fe012ad0127e5b904422363d7824337dc641860dca7e8c6a2ad"
+    },
+    {
+      "path": "data/responses/15-pt-neutral.json.gz",
+      "sha256": "67bdb1870a819b838902a8d3d6152778bdb633d17d5403600ed0d893f6e04d24"
+    },
+    {
+      "path": "data/responses/15-zh-ethical.json.gz",
+      "sha256": "e20b807b5f20b3da6e96036589b838b6212957892192d43e115616b383475866"
+    },
+    {
+      "path": "data/responses/15-zh-neutral.json.gz",
+      "sha256": "589fb1c056e5b97d9f483f1d348f4010d7775faf353dee44e589dea313cc4a11"
+    },
+    {
+      "path": "data/responses/16-en-ethical.json.gz",
+      "sha256": "60fa1ed21fb23eb18dde6f87e55d4fc32cca9bc5ee8abeeaef2df142a131d224"
+    },
+    {
+      "path": "data/responses/16-en-neutral.json.gz",
+      "sha256": "7bac0cae86dbfef2cb59e73ed71f8050397a79f9133f4cbcb87d95d93cdfda24"
+    },
+    {
+      "path": "data/responses/16-es-ethical.json.gz",
+      "sha256": "8391088971b90ffabff29d069eefddd459c89d98b3b944f7e553a3b8d07322cd"
+    },
+    {
+      "path": "data/responses/16-es-neutral.json.gz",
+      "sha256": "5d588a03f6a5cefce94c84cf015b2f54ab570dbf5e357d1dc8642610ebed7e8a"
+    },
+    {
+      "path": "data/responses/16-hi-ethical.json.gz",
+      "sha256": "cae41a247498dd85dc9261c1e0ef9c1832f19870ecd63a359b9d27c83852671f"
+    },
+    {
+      "path": "data/responses/16-hi-neutral.json.gz",
+      "sha256": "b1a81bd411096c22ef608e1254fbe98bebb3b349f4b956fd1ca1f06738b418a2"
+    },
+    {
+      "path": "data/responses/16-pt-ethical.json.gz",
+      "sha256": "a086fa6a77060b78627d5856829d38be4f7b29ce15008fe1123346ceb448464c"
+    },
+    {
+      "path": "data/responses/16-pt-neutral.json.gz",
+      "sha256": "47316359e65f4026cb4c7d65f3d251b8cda5b7c8aba6f27f7e46d09dd0abb099"
+    },
+    {
+      "path": "data/responses/16-zh-ethical.json.gz",
+      "sha256": "a2bbbfb5b55fd245b556543d9edebfd39142f0d8ae8482e7fea496b8f62dee54"
+    },
+    {
+      "path": "data/responses/16-zh-neutral.json.gz",
+      "sha256": "7703a78d8a9b8499bcdcd5b7531cdd09fb90618bf0da185eb095c610b5c3ebb1"
+    },
+    {
+      "path": "data/responses/17-en-ethical.json.gz",
+      "sha256": "7a07ce0d4291bc1dee811763fa190f6b98459a25faca035f7a16ccc2d58a39af"
+    },
+    {
+      "path": "data/responses/17-en-neutral.json.gz",
+      "sha256": "c94d9a7b092dd1fc49be66b80d6578fa9d7e9ec694c6a4ae3b05bb90cc565754"
+    },
+    {
+      "path": "data/responses/17-es-ethical.json.gz",
+      "sha256": "cdcf5b358d8d9713b70e0594865a57eeb38badaef76b74c5d1114be6ca748674"
+    },
+    {
+      "path": "data/responses/17-es-neutral.json.gz",
+      "sha256": "a4dcbe934ab02164b59a11b33133b76a329601b28718562d5bd77d6ff6c44fa8"
+    },
+    {
+      "path": "data/responses/17-hi-ethical.json.gz",
+      "sha256": "f283b77efe1ddf07833ad858760daa69038e8c2573ffe968b7d13acad8839fd6"
+    },
+    {
+      "path": "data/responses/17-hi-neutral.json.gz",
+      "sha256": "22f3f0977e8148cddae4a37eb4f34084567cd94b9a6d61dd2ca98e08c1753529"
+    },
+    {
+      "path": "data/responses/17-pt-ethical.json.gz",
+      "sha256": "1e1316d7231324d6d235b5ce1d74fed331b48316b4ae65c71b5e77ae884ed6b0"
+    },
+    {
+      "path": "data/responses/17-pt-neutral.json.gz",
+      "sha256": "466f41afaa21c50805b534516c8f960b193ea28841c560ad72cb992c7b2663ab"
+    },
+    {
+      "path": "data/responses/17-zh-ethical.json.gz",
+      "sha256": "cc0eec25f2bbfa7902f6c91802bf181294d413ced069e2753cc1b3cac03bce54"
+    },
+    {
+      "path": "data/responses/17-zh-neutral.json.gz",
+      "sha256": "6f3b3f8189caa0ddbc209578fbf5720d044f262175455fbfca616581025a50f9"
+    },
+    {
+      "path": "data/responses/18-en-ethical.json.gz",
+      "sha256": "d9be7ff64cfa8755b5784a1ea381879a1e7646180bdced3e1072a82a4ea377cd"
+    },
+    {
+      "path": "data/responses/18-en-neutral.json.gz",
+      "sha256": "b79256f5bd03d160c3023f5c90c73baad31d6be5a31b1c8421522583c4d1ef9c"
+    },
+    {
+      "path": "data/responses/18-es-ethical.json.gz",
+      "sha256": "d21501a8034dddc72d2095c329365f4c7403c2d2e7e239186339ecf779ac8d4a"
+    },
+    {
+      "path": "data/responses/18-es-neutral.json.gz",
+      "sha256": "1d08677cb913b56872dda345e43c5eaba494690dbb92e2bf691c588cc55212eb"
+    },
+    {
+      "path": "data/responses/18-hi-ethical.json.gz",
+      "sha256": "7a5a948fe38b16671c9f97d206b752c8cb9ed6bec8fb4e47f00c7b58f119bb0f"
+    },
+    {
+      "path": "data/responses/18-hi-neutral.json.gz",
+      "sha256": "00e4fa4da3bc0743b7e507cb91df8958ef3296d6fc02e45f0dc0cd4bd6ce9eb4"
+    },
+    {
+      "path": "data/responses/18-pt-ethical.json.gz",
+      "sha256": "772bab11305905b01c2a8402dede693e0c7429ed346a5ca7d8f7f15cf8185a50"
+    },
+    {
+      "path": "data/responses/18-pt-neutral.json.gz",
+      "sha256": "1287f6168297639d58818095dfb00ed1fc4ff1b60ac3e4d7a95372845e89996d"
+    },
+    {
+      "path": "data/responses/18-zh-ethical.json.gz",
+      "sha256": "ab64e3af59bc51ea4a34fbf36bf8256f75dbd37894a2dfee4a830362fd5de899"
+    },
+    {
+      "path": "data/responses/18-zh-neutral.json.gz",
+      "sha256": "f8e0119e8d6168267c6922f9015798cf1eab581c741223b4599efd72f8566ebb"
+    },
+    {
+      "path": "data/responses/19-en-ethical.json.gz",
+      "sha256": "bee16c722d26b672a6046d51cc0bed0df9168444b8af2d91c47a1b60a54b135d"
+    },
+    {
+      "path": "data/responses/19-en-neutral.json.gz",
+      "sha256": "f7e8cf3624dffb9dcf7148d62d8a3d0a24671b8fad04d5eddbc095ca7d6beedc"
+    },
+    {
+      "path": "data/responses/19-es-ethical.json.gz",
+      "sha256": "788bac832aaf6fb54c3bf1d959cf4c9070885e358f85c252ab32106c449b9c68"
+    },
+    {
+      "path": "data/responses/19-es-neutral.json.gz",
+      "sha256": "44a14e6fd6e272b5cd57821cf1398223830f2f5e6c1cc2920251cc2f92c9b61e"
+    },
+    {
+      "path": "data/responses/19-hi-ethical.json.gz",
+      "sha256": "67c9edb78b9044115870ad5e8bc099636cfa17516ecb9a806424672a63c65357"
+    },
+    {
+      "path": "data/responses/19-hi-neutral.json.gz",
+      "sha256": "be6637ca3367238319c43211e7ce522951ec760d314e1b72f9aaf95ba402a877"
+    },
+    {
+      "path": "data/responses/19-pt-ethical.json.gz",
+      "sha256": "86772e79723e5983aa300bc375a512d09680d81ae9bcc671facc04fd3ea77987"
+    },
+    {
+      "path": "data/responses/19-pt-neutral.json.gz",
+      "sha256": "f4f87d1d332f55b4352edc463ea667ff0fd2faef43f88dfce8c348b2940a7cc8"
+    },
+    {
+      "path": "data/responses/19-zh-ethical.json.gz",
+      "sha256": "52c1499c52c2ed3f550a998729477005d8c7c9cc88118a372a8f59fb33153b79"
+    },
+    {
+      "path": "data/responses/19-zh-neutral.json.gz",
+      "sha256": "7cbe0b1bbc0ad50c4eb1056d79f9810c7db7ba634bfce832924ba205e2bd5125"
+    },
+    {
+      "path": "data/responses/20-en-ethical.json.gz",
+      "sha256": "e29719b6eb3d6c3ad50b66d3a92a7ebc9a06db4cdc443ebef42d1e2ba8feb441"
+    },
+    {
+      "path": "data/responses/20-en-neutral.json.gz",
+      "sha256": "1d8debbe5666c9853f66715b63c439df7e8d9be2ebebc1456926b6e6776886e6"
+    },
+    {
+      "path": "data/responses/20-es-ethical.json.gz",
+      "sha256": "6f0c7010704af1a8a487c4e0e329e8e35b9f25559bc939d0fbe78765de36824e"
+    },
+    {
+      "path": "data/responses/20-es-neutral.json.gz",
+      "sha256": "d20d80d1c886f32106d19dbd081100ce1f1af01fda8cef0a67ba22685a588426"
+    },
+    {
+      "path": "data/responses/20-hi-ethical.json.gz",
+      "sha256": "67aea79c8ad0c108cc4235d808a94f86f5703bc07c2993280a353a933cec56d5"
+    },
+    {
+      "path": "data/responses/20-hi-neutral.json.gz",
+      "sha256": "81a7f4018f77c56a9c80dd1c4b8e09bdf758a7b39e8a91a813477bed4e4ff641"
+    },
+    {
+      "path": "data/responses/20-pt-ethical.json.gz",
+      "sha256": "423717f29ed19d278a927f7b17354a242c70824f73897d6f513f8d5f3af4a541"
+    },
+    {
+      "path": "data/responses/20-pt-neutral.json.gz",
+      "sha256": "e92b8155e4707e2fe0348a434406d074d6f597e69ad7a622afe34d3571c8dd3b"
+    },
+    {
+      "path": "data/responses/20-zh-ethical.json.gz",
+      "sha256": "ee1d1ed134d9ab3550646f3b3c291591e0960537151452348a16462a393dd908"
+    },
+    {
+      "path": "data/responses/20-zh-neutral.json.gz",
+      "sha256": "9b390536b3d43ad7a37db866159789d4bc4359763ddfbdbd928d60fa958c77a0"
+    },
+    {
+      "path": "data/responses/21-en-ethical.json.gz",
+      "sha256": "221a4d8bf3b55edd5c1a3f2a602f5b990c70aa6cddfc4bdd7a1f72f6c74922ff"
+    },
+    {
+      "path": "data/responses/21-en-neutral.json.gz",
+      "sha256": "bddd28e3d5e339fdc506f9a12ca671621c148de0e77161b8165dbd6aaca98191"
+    },
+    {
+      "path": "data/responses/21-es-ethical.json.gz",
+      "sha256": "9bbce9307c9ed75d0b8a0e9e703ac294f580088024294e8d6c1acdce79f26229"
+    },
+    {
+      "path": "data/responses/21-es-neutral.json.gz",
+      "sha256": "7ebc6fd5c12c27f606b724c56a66198bc9708886e94cea57be5582e1992f9e72"
+    },
+    {
+      "path": "data/responses/21-hi-ethical.json.gz",
+      "sha256": "3f2e08343d64eb6926fff434fc62af255a46102cc7b677f9093b32bca90be010"
+    },
+    {
+      "path": "data/responses/21-hi-neutral.json.gz",
+      "sha256": "6ab4aa38aa9a73e38457c4ae79bc3ed6e3ef3c61027cfc01669085d03c365b73"
+    },
+    {
+      "path": "data/responses/21-pt-ethical.json.gz",
+      "sha256": "9b05441dd8a4d180b686fdb77b18e628d5bec55244000c519c6a82c79d8dbcbf"
+    },
+    {
+      "path": "data/responses/21-pt-neutral.json.gz",
+      "sha256": "c13e5de21ce3d1dfc2624e1c59bc06838be19a3550c3ab291b06dd34bcadfc7c"
+    },
+    {
+      "path": "data/responses/21-zh-ethical.json.gz",
+      "sha256": "796e525c107673fe815383dc2522993375237e8ae4c38e0c440209808761c0cd"
+    },
+    {
+      "path": "data/responses/21-zh-neutral.json.gz",
+      "sha256": "016c691e248858c00797e576a9c553f8f4e52bbe11f667f6716dd91713ace5dc"
+    },
+    {
+      "path": "data/responses/22-en-ethical.json.gz",
+      "sha256": "4c09477f9ec23b8105dc21109b64e17db08b2413fc27c2b92e7ef29f304e7cdf"
+    },
+    {
+      "path": "data/responses/22-en-neutral.json.gz",
+      "sha256": "b9fd598bf10630c54bb9fb01805afb9e8920324cb3defa8ac7cd3c71dd056641"
+    },
+    {
+      "path": "data/responses/22-es-ethical.json.gz",
+      "sha256": "dccd560c89b4b08551c6db4c85aa2da0de30599d900b15f7aaf3e6a87656af3e"
+    },
+    {
+      "path": "data/responses/22-es-neutral.json.gz",
+      "sha256": "95e657254803477f935689b045ac907d89590bd941a7f26e2f95e7e479167775"
+    },
+    {
+      "path": "data/responses/22-hi-ethical.json.gz",
+      "sha256": "09fa30dbef242228bc4888a210412bb9927f25fc4b955a41945da5d54b79149d"
+    },
+    {
+      "path": "data/responses/22-hi-neutral.json.gz",
+      "sha256": "228d46ae190ff794739ab453f6635212c267d441bba0f756ad9aff0e4cbcd4a1"
+    },
+    {
+      "path": "data/responses/22-pt-ethical.json.gz",
+      "sha256": "1dfd9b054120e95d6fa50a3e7162901c4019e710f7386e61753079d09a88eb04"
+    },
+    {
+      "path": "data/responses/22-pt-neutral.json.gz",
+      "sha256": "f41bf270b789ee0b1b7007cb9948bb72ec8c591a87c05925b188caf847584d7c"
+    },
+    {
+      "path": "data/responses/22-zh-ethical.json.gz",
+      "sha256": "7a90345e788224cff13e7526dd3cd3c50187acd88c192a3304a2ee1bb401539d"
+    },
+    {
+      "path": "data/responses/22-zh-neutral.json.gz",
+      "sha256": "8bde98c345cdd9c09a309b88d3a02aa4d806626d17a5b5d61ab83456441cad83"
+    },
+    {
+      "path": "data/responses/23-en-ethical.json.gz",
+      "sha256": "b4ce18f639b24fedcd42581cac30206336d2b8d55df5f493746f585c2f1faf6d"
+    },
+    {
+      "path": "data/responses/23-en-neutral.json.gz",
+      "sha256": "294f8061dde4d77b66cc0ba80df4f9c9ae50b5ede946b544b464753e400a8f91"
+    },
+    {
+      "path": "data/responses/23-es-ethical.json.gz",
+      "sha256": "8c17efc1ab0c560d6e0bbc4746f465e2589926295da724fead259d7bd5b673a7"
+    },
+    {
+      "path": "data/responses/23-es-neutral.json.gz",
+      "sha256": "a3bf184408e3a8ea28f1d76fac925a10324017e40f7c1d7118fa4ac1944ad103"
+    },
+    {
+      "path": "data/responses/23-hi-ethical.json.gz",
+      "sha256": "2d8fc8085a3c82befe1e40b0ef21cb4f692a502f9f08fd67086e799d5bd6f028"
+    },
+    {
+      "path": "data/responses/23-hi-neutral.json.gz",
+      "sha256": "25f89dbc6459fc08405e5599a0025c1a8517a94577dbaec8641a793f9b8efe8e"
+    },
+    {
+      "path": "data/responses/23-pt-ethical.json.gz",
+      "sha256": "bf244bd0ed0f9121fa0fa4e8ed67735040c942b0d2d26ab1ae7fb3b6aabae430"
+    },
+    {
+      "path": "data/responses/23-pt-neutral.json.gz",
+      "sha256": "873dcc1ad95990c2ec42b62905a66f0445989d1ab532c0da2710725f312c5023"
+    },
+    {
+      "path": "data/responses/23-zh-ethical.json.gz",
+      "sha256": "d13988ad82e31ab6ac8fdf6df58fb1abeffcf098bc4ac7c233798f01131911b2"
+    },
+    {
+      "path": "data/responses/23-zh-neutral.json.gz",
+      "sha256": "5f90ac67e01a4b1c2dadd6868aded11583e4db68a2f8470510cb9aaba43df125"
+    },
+    {
+      "path": "data/responses/24-en-ethical.json.gz",
+      "sha256": "6e401f1f95a7c80d980fcc5c88546e274504dbe7076c6908892565e98824f329"
+    },
+    {
+      "path": "data/responses/24-en-neutral.json.gz",
+      "sha256": "6bc11d996f68758841acc6c6029fb012262258a57736d66929956b71e6cfbf0f"
+    },
+    {
+      "path": "data/responses/24-es-ethical.json.gz",
+      "sha256": "a78d62bcf09ef3a034069922ddc5b1f2bfb641f05dc7f42c573a853a6a0eb530"
+    },
+    {
+      "path": "data/responses/24-es-neutral.json.gz",
+      "sha256": "dc6bb0b2f01e60f84d24c94af4abfa77c1451ac87d028c9976c18d39870d9c6b"
+    },
+    {
+      "path": "data/responses/24-hi-ethical.json.gz",
+      "sha256": "d091e85482eac559435f690ca6f3a535ab9cb1eeb514ab9b8e880de4959fc53c"
+    },
+    {
+      "path": "data/responses/24-hi-neutral.json.gz",
+      "sha256": "47aba34ba7b04eeb2dc976c067ddea016c4ba4b8aa93c37dbf3c62dfd2a73a8c"
+    },
+    {
+      "path": "data/responses/24-pt-ethical.json.gz",
+      "sha256": "c2e076aa4eec44f2aba1faaf96442c35014044167eec4d24e1a3a8cf5d96f6c8"
+    },
+    {
+      "path": "data/responses/24-pt-neutral.json.gz",
+      "sha256": "09772bee96ee849d72146ff9e432e038af3f29dc15cddf27a1fa1583aa76a506"
+    },
+    {
+      "path": "data/responses/24-zh-ethical.json.gz",
+      "sha256": "172b362067919d3dbaf762a1bcff24a1c86310d6df58d30e39280e583d09a295"
+    },
+    {
+      "path": "data/responses/24-zh-neutral.json.gz",
+      "sha256": "01ad54084eb60a0668e735dd9432f953cd0d7e9e38bf2ae0b8283ac4f4360887"
+    },
+    {
+      "path": "data/responses/25-en-ethical.json.gz",
+      "sha256": "29328c60135bbc88d7a6083d1aad78c4d348b6e71c34ead423bbf59665c462ad"
+    },
+    {
+      "path": "data/responses/25-en-neutral.json.gz",
+      "sha256": "c288ef0c857f7fc6a7797e301d6db1f5cb8746c347d1731aa477ebea7bb97f18"
+    },
+    {
+      "path": "data/responses/25-es-ethical.json.gz",
+      "sha256": "a2f5c9ca74905823e0f3fae2cb50dcd4cbaba28845fc71cfca2373688b4c23e7"
+    },
+    {
+      "path": "data/responses/25-es-neutral.json.gz",
+      "sha256": "3135ce7cef5bae43939078df9e3ec066f0624909f218433566a30a5ade3cbe3c"
+    },
+    {
+      "path": "data/responses/25-hi-ethical.json.gz",
+      "sha256": "442c1f540aa78103dbd3f46e3ba9034cd9146c54e2f1132ee6ae210c17fed0fa"
+    },
+    {
+      "path": "data/responses/25-hi-neutral.json.gz",
+      "sha256": "10b87e811045c358a820aa36819eec88d8af65f28a7ee9ea281d8685c0bfdbaa"
+    },
+    {
+      "path": "data/responses/25-pt-ethical.json.gz",
+      "sha256": "a3d4c4535cf491309b7d06ae2d453572620a5a74b88e7939e57eb7b0a3b4b2f6"
+    },
+    {
+      "path": "data/responses/25-pt-neutral.json.gz",
+      "sha256": "1e04e0916e6d516c581362db5450fb82599cb2db408905177de694e25ef87b2e"
+    },
+    {
+      "path": "data/responses/25-zh-ethical.json.gz",
+      "sha256": "9dffe42e56312328d87d341462fbe57358cd01c69c9ba548220b0a60dce66ad1"
+    },
+    {
+      "path": "data/responses/25-zh-neutral.json.gz",
+      "sha256": "304809f36ee0489ce4cc29dc2990cfcdcd64d4de34fd4562e8befd05da72a120"
+    },
+    {
+      "path": "data/responses/26-en-ethical.json.gz",
+      "sha256": "082643def3a5004b9d9de8fee1852e7ad4d6d04ca66821e4bfa83dc51fd0f493"
+    },
+    {
+      "path": "data/responses/26-en-neutral.json.gz",
+      "sha256": "9a44d2fa3ba2c066a5df2117253ec191453c568a63da9a64e9c02f625f3e3f62"
+    },
+    {
+      "path": "data/responses/26-es-ethical.json.gz",
+      "sha256": "a21e2231a96580d6ca1c9a963e43f93f1e7d0d92a2452088bc0542fd242db316"
+    },
+    {
+      "path": "data/responses/26-es-neutral.json.gz",
+      "sha256": "132375350272a18ce3b62e1e23d07a1ab0da6b42b814445f6394097fa2f944bf"
+    },
+    {
+      "path": "data/responses/26-hi-ethical.json.gz",
+      "sha256": "079062f1dbcf5bffa00141967d42245b9b67cdfec96dea25c448b002710c3da8"
+    },
+    {
+      "path": "data/responses/26-hi-neutral.json.gz",
+      "sha256": "cbeebf9462775486d54b7fe7036be8f46e13889f302b6fda23648ed5b527ce96"
+    },
+    {
+      "path": "data/responses/26-pt-ethical.json.gz",
+      "sha256": "f5d2d0fc4ce6e84cfd0ce4d471a67125d969dd23d01a3dd3f6a9af5cddf7b945"
+    },
+    {
+      "path": "data/responses/26-pt-neutral.json.gz",
+      "sha256": "a0baada0830f7559b9d6f272f99d7780d7e6d46f468f8b5a027701d00f0d14b6"
+    },
+    {
+      "path": "data/responses/26-zh-ethical.json.gz",
+      "sha256": "06e61830364080a537391be55d90d31e5bf1416b45c7674130525dbdb8e545a4"
+    },
+    {
+      "path": "data/responses/26-zh-neutral.json.gz",
+      "sha256": "33e885017ac8fa5ba806668d28d026dbd23bbf3b34d0c40668290375da53ed9e"
+    },
+    {
+      "path": "data/responses/27-en-ethical.json.gz",
+      "sha256": "18cf56308d5ba3333171603f3e30cbf8e49fe00982a78702dc31c2f85d18d9d9"
+    },
+    {
+      "path": "data/responses/27-en-neutral.json.gz",
+      "sha256": "cbc1d191c2eda271a62a8fdca3b9ce85e8ada0bf4e5e05a2515b1b888c4c9d35"
+    },
+    {
+      "path": "data/responses/27-es-ethical.json.gz",
+      "sha256": "2ed4226ffb6afb7fa4001dc0a6ac9833edaf4d61b5538737a530102c120ad296"
+    },
+    {
+      "path": "data/responses/27-es-neutral.json.gz",
+      "sha256": "7e877259a3de5ac633049bdbe519d99077bf12d04c9b07a6cc78a34e5a942031"
+    },
+    {
+      "path": "data/responses/27-hi-ethical.json.gz",
+      "sha256": "4cc8713058a67ecaf0d0c53a725210eed7c545bb23e24287d6b89ccef1a9aa34"
+    },
+    {
+      "path": "data/responses/27-hi-neutral.json.gz",
+      "sha256": "1eb87c786cc1a933f68d7c03760bcd1dba9771a3346acd43e009ff4e99614075"
+    },
+    {
+      "path": "data/responses/27-pt-ethical.json.gz",
+      "sha256": "68b1d6c39c385516cd5b3099a3c4171a643b45a26634433fd56365b552460660"
+    },
+    {
+      "path": "data/responses/27-pt-neutral.json.gz",
+      "sha256": "5b829baa10dae7f32b77654d65301568ec6e44109ead1138fa62e31b5b652745"
+    },
+    {
+      "path": "data/responses/27-zh-ethical.json.gz",
+      "sha256": "00f59eacf55d5d74cca1198da2100642dd59a993f0e0712437bbc2f1c4a82931"
+    },
+    {
+      "path": "data/responses/27-zh-neutral.json.gz",
+      "sha256": "22fe282470249615398845a9a06a4c372d0e25f9bbbdbfdbf0bd01dfbd2de2c3"
+    },
+    {
+      "path": "data/responses/28-en-ethical.json.gz",
+      "sha256": "cec335c7367a84f99bcc73a6c2eb503a89581a5d43e038e4ab8f15f7f859aff9"
+    },
+    {
+      "path": "data/responses/28-en-neutral.json.gz",
+      "sha256": "d3330d5ded6da3cf4aa31009820120d3409cb6a7a397d51b0c8ad1f1b4ab1968"
+    },
+    {
+      "path": "data/responses/28-es-ethical.json.gz",
+      "sha256": "6a9470b85b95c06ebbb3a5d56c46362a1355bea0573c9ccdc48883e500693375"
+    },
+    {
+      "path": "data/responses/28-es-neutral.json.gz",
+      "sha256": "0ccd66aa197d8110d95b2d886a70743d3b28cd84792763b4a6fbc4582fc0ec46"
+    },
+    {
+      "path": "data/responses/28-hi-ethical.json.gz",
+      "sha256": "2f0668881d9eb36f5515298221076226894bf8e76a156c29d45c4333b7ef9db3"
+    },
+    {
+      "path": "data/responses/28-hi-neutral.json.gz",
+      "sha256": "e89b1fbe925e9dd4de77974a30ab0fe8177060a473744902ddc5fda77e7a4c24"
+    },
+    {
+      "path": "data/responses/28-pt-ethical.json.gz",
+      "sha256": "01cbbd631aa4cf14bf8768d607da2f360c98991bb3e66ae83ef1ddd23a30701d"
+    },
+    {
+      "path": "data/responses/28-pt-neutral.json.gz",
+      "sha256": "d62bbe21c945a57f2e386b3ea1d87a366395f249eb3bcec80039df8a04ddba33"
+    },
+    {
+      "path": "data/responses/28-zh-ethical.json.gz",
+      "sha256": "80b1e90e5a70d8c98588b208b1cfa573b1b9a4725089540bcd00c23a70851fed"
+    },
+    {
+      "path": "data/responses/28-zh-neutral.json.gz",
+      "sha256": "ed9e90e8a8c269d621c74ad87f2d611d01ba7507109d34856169f4ede83ad47e"
+    },
+    {
+      "path": "data/responses/29-en-ethical.json.gz",
+      "sha256": "d05d8a304bdc6e308ec0af87274b7af99ffaa61090a34cfe3e73e57cbc300116"
+    },
+    {
+      "path": "data/responses/29-en-neutral.json.gz",
+      "sha256": "60e38340fc1b12ea4837419a45f3cbde93a1c6a16052738068105ed5ff2cd34d"
+    },
+    {
+      "path": "data/responses/29-es-ethical.json.gz",
+      "sha256": "2a45457750f85d61e7e8766c0f3f95ddf22288ea71491bce639a007b350576d9"
+    },
+    {
+      "path": "data/responses/29-es-neutral.json.gz",
+      "sha256": "00d42ded0e1a847a96ef991dcfa3cf8e74b14dd41db5aed13b4b0934e2c721bb"
+    },
+    {
+      "path": "data/responses/29-hi-ethical.json.gz",
+      "sha256": "f814815adb30b0e34d2f75f1aa9861aad0de8ed8e462e8662ee65fc4fa161908"
+    },
+    {
+      "path": "data/responses/29-hi-neutral.json.gz",
+      "sha256": "400b8b41f96e50b849bed3f3ff531d51846d4201d0b32f6be9f5a4f79feb434c"
+    },
+    {
+      "path": "data/responses/29-pt-ethical.json.gz",
+      "sha256": "be5c5ef79d4690d0e76056eec0f4fd6b6f311a256a5f126f5e701c2c5bbea48e"
+    },
+    {
+      "path": "data/responses/29-pt-neutral.json.gz",
+      "sha256": "ab396959984efe1548197f7cfbc921249d380bed273300f7562d94826d0408de"
+    },
+    {
+      "path": "data/responses/29-zh-ethical.json.gz",
+      "sha256": "1543a1f37b78c896eb20d436a183d37b9e3925d41e202303291ee9a943b5185e"
+    },
+    {
+      "path": "data/responses/29-zh-neutral.json.gz",
+      "sha256": "ed209068134d95397a4c4b18125e33fe890621cd8594e916d3192a6f3c9b1cc5"
+    },
+    {
+      "path": "data/scenarios.json.gz",
+      "sha256": "9e398b5bd15e13cf39c52849471ed7b505aea1d224a44b837291135c861d5177"
+    },
+    {
+      "path": "data/statistics.json.gz",
+      "sha256": "1f43fd847833caed13aaea3836c0ee7b6fa2fc6abaae39061bfd6f61087856ae"
+    },
+    {
+      "path": "data/tools.json.gz",
+      "sha256": "578c97e68e0cf179cff1a23e3a7cb0ab49a3139efa6ad9ddf71f47a52fe0d3ae"
+    }
+  ],
+  "original_bytes_preserved": true
+}
